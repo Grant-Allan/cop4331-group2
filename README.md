@@ -6,4 +6,4 @@
 5. Unlike most other PC games on the market
 6. Our product offers simplicity and replay value through randomization
 
-[Extended info](https://github.com/rashawnpeters/cop4331-group2/blob/master/product_vision.md)
+[Extended info](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/product_vision.md)
