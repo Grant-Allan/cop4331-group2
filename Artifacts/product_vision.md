@@ -30,7 +30,7 @@ Our product will provide entertainment. It offers a simple, yet satisfying gamin
 * [Sprint Backlog]()
 * [Product Backlog]()
 * [Requirements]()
-* [Trello Board]()
+* [Trello Board](https://trello.com/b/sGAuyq1i/agile-board)
 * [Burndown Chart]()
 * [Velocity Chart]()
 * [Design Documents]()
