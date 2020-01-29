@@ -22,6 +22,8 @@ Our product will provide entertainment. It offers a simple, yet satisfying gamin
 * Leaderboard
 * Difficulty settings
 
+---
+
 # Sprint 1
 
 * [Product Backlog]()
