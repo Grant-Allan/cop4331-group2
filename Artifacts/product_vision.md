@@ -6,8 +6,6 @@
 5. Unlike most other PC games on the market
 6. Our product offers simplicity and replay value through randomization
 
----
-
 Our vision is to create an engaging computer game composed of a series of minigames in the style of WarioWare. We plan to use C# and Unity engine to design our game. We will use an an 8bit animation style.  
 
 ## What is the target market?
@@ -24,3 +22,18 @@ Our product will provide entertainment. It offers a simple, yet satisfying gamin
 * Leaderboard
 * Difficulty settings
 
+# Sprint 1
+
+* [Product Backlog]()
+* [Sprint Backlog]()
+* [Product Backlog]()
+* [Requirements]()
+* [Trello Board]()
+* [Burndown Chart]()
+* [Velocity Chart]()
+* [Design Documents]()
+    * [System Architecture]()
+    * [Class Diagrams]()
+    * [Sequence Diagrams]()
+* [Source Code]()
+* [Automated Tests]()
