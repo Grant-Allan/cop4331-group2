@@ -7,3 +7,21 @@
 6. Our product offers simplicity and replay value through randomization
 
 [Extended info](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/product_vision.md)
+
+---
+
+# Sprint 1
+
+* [Product Backlog]()
+* [Sprint Backlog]()
+* [Product Backlog]()
+* [Requirements]()
+* [Trello Board](https://trello.com/b/sGAuyq1i/agile-board)
+* [Burndown Chart]()
+* [Velocity Chart]()
+* [Design Documents]()
+    * [System Architecture]()
+    * [Class Diagrams]()
+    * [Sequence Diagrams]()
+* [Source Code]()
+* [Automated Tests]()
