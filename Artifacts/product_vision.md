@@ -21,21 +21,3 @@ Our product will provide entertainment. It offers a simple, yet satisfying gamin
 * Boss battles
 * Leaderboard
 * Difficulty settings
-
----
-
-# Sprint 1
-
-* [Product Backlog]()
-* [Sprint Backlog]()
-* [Product Backlog]()
-* [Requirements]()
-* [Trello Board](https://trello.com/b/sGAuyq1i/agile-board)
-* [Burndown Chart]()
-* [Velocity Chart]()
-* [Design Documents]()
-    * [System Architecture]()
-    * [Class Diagrams]()
-    * [Sequence Diagrams]()
-* [Source Code]()
-* [Automated Tests]()
