@@ -16,7 +16,7 @@
 * [Sprint Backlog]()
 * [Product Backlog]()
 * [Requirements]()
-* [Trello Board](https://trello.com/b/sGAuyq1i/agile-board)
+* [Trello Board](https://trello.com/b/k14W6q1c/cop4331-group2)
 * [Burndown Chart]()
 * [Velocity Chart]()
 * [Design Documents]()
