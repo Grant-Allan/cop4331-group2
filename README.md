@@ -9,19 +9,24 @@
 [Extended info](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/product_vision.md)
 
 ---
+## Team Members
+
+- Russell Campbell
+- Gary Hoppenworth
+- Christian Jones
+- Rashawn Peters
 
 # Sprint 1
 
-* [Product Backlog]()
-* [Sprint Backlog]()
-* [Product Backlog]()
+* [Product Backlog](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/product_backlog.md)
+* [Sprint Backlog](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint1_backlog.md)
 * [Requirements]()
 * [Trello Board](https://trello.com/b/k14W6q1c/cop4331-group2)
 * [Burndown Chart]()
 * [Velocity Chart]()
-* [Design Documents]()
-    * [System Architecture]()
-    * [Class Diagrams]()
-    * [Sequence Diagrams]()
-* [Source Code]()
-* [Automated Tests]()
+* Design Documents
+    * System Architecture
+    * Class Diagrams
+    * Sequence Diagrams
+* Source Code
+* Automated Tests
