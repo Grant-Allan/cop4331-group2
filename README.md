@@ -20,9 +20,9 @@
 
 * [Product Backlog](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/product_backlog.md)
 * [Sprint Backlog](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint1_backlog.md)
-* [Requirements]()
+* [Requirements](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/requirements.md)
 * [Trello Board](https://trello.com/b/k14W6q1c/cop4331-group2)
-* [Burndown Chart]()
+* [Burndown Chart](https://docs.google.com/spreadsheets/d/18VUI8Ta6aBY3HgJH9A6JNLx4YcdEPwzw_UbUKSVFDfQ/edit?usp=sharing)
 * [Velocity Chart]()
 * Design Documents
     * System Architecture
