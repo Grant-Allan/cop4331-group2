@@ -36,8 +36,8 @@
 * [Burndown Chart](https://docs.google.com/spreadsheets/d/18VUI8Ta6aBY3HgJH9A6JNLx4YcdEPwzw_UbUKSVFDfQ/edit?usp=sharing)
 * [Velocity Chart](https://docs.google.com/spreadsheets/d/16ysRusBVkkAfoPKgARBptCvqvAWeJbdyo0cIgsfH7g4/edit?usp=sharing)
 * Design Documents
-    * System Architecture
-    * Class Diagrams
-    * Sequence Diagrams
+    * [System Architecture]()
+    * [Classes / Class Diagram]()
+    * [User Interface / UI Diagram]()
 * Source Code
 * Automated Tests
