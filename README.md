@@ -38,6 +38,6 @@
 * Design Documents
     * [System Architecture]()
     * [Class Diagram]()
-    * [User Interface Diagram](cop4331-group2/Artifacts/System\ Context\ Diagram.png)
+    * [User Interface Diagram](cop4331-group2/Artifacts/System Context Diagram.png)
 * Source Code
 * Automated Tests
