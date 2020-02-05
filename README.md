@@ -37,7 +37,7 @@
 * [Velocity Chart](https://docs.google.com/spreadsheets/d/16ysRusBVkkAfoPKgARBptCvqvAWeJbdyo0cIgsfH7g4/edit?usp=sharing)
 * Design Documents
     * [System Architecture]()
-    * [Classes / Class Diagram]()
-    * [User Interface / UI Diagram]()
+    * [Class Diagram]()
+    * [User Interface Diagram](cop4331-group2/Artifacts/System\ Context\ Diagram.png)
 * Source Code
 * Automated Tests
