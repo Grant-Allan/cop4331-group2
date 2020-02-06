@@ -36,7 +36,7 @@
 * [Burndown Chart]()
 * [Velocity Chart]()
 * Design Documents
-    * [System Architecture](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/architecture.md)
+    * [System Architecture Document](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/architecture.md)
     * [High-level Architectural Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/System%20Context%20Diagram.png)
     * [Class Diagram]()
     * [User Interface Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/User%20Interface%20diagram.png)
