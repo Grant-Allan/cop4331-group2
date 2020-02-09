@@ -1,10 +1,5 @@
 # Product Vision
-1. For the ages of preteens to young adults
-2. Who are looking for a simple, yet satisfying form of entertainment
-3. The product is a game
-4. That leads to fun without a huge time commitment or high skill
-5. Unlike most other PC games on the market
-6. Our product offers simplicity and replay value through randomization
+Our vision is to create an engaging computer game composed of a series of minigames in the style of WarioWare. While our game will be accessible to players of all ages, our targeted audience ranges from preteens to young adults who are looking for simple, yet satisfying game play. Our game will be fun without requiring a huge time commitment or skill level. While our game is relatively simple, it will offer significant replay value through randomization. We will use an an 8bit animation style.  We plan to use C# and Unity engine to design our game.
 
 [Extended info](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/product_vision.md)
 
