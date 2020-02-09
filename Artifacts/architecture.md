@@ -2,9 +2,13 @@ Populate each section with information as it applies to your project. If a secti
 
 # Program Organization
 
+[High level system context diagram](https://drive.google.com/open?id=1fBGgtRbptirduLq4V3FgDUbiGbtzVavR3OgEFIwpN6A)
+
 You should have a diagram of your high level architecture in this section, along with a description of each component and a table that relates each component to one or more user stories.
 
 # Major Classes
+
+[Class Diagram](https://drive.google.com/open?id=1whEYAJHdVstfufMPsA3q2mUNBmp2zzbTo6CBhDky6mg)
 
 You should have an UML class diagram in this section, along with a description of each class and a table that relates each component to one or more user stories. At a minimum, you need 1 diagram of your major classes. You are encouraged to also include more detailed diagrams that include all of your classes. 
 
@@ -17,6 +21,7 @@ If you are using a database, you should have a basic Entity Relationship Diagram
 You should list the assumptions, rules, and guidelines from external sources that are impacting your program design. 
 
 # User Interface Design
+[User Interface Diagram](https://drive.google.com/open?id=1-eE1YqrUNQcdbm2ZHN7hcqd_B4p8LW21wKe5XLTnW5o)
 
 You should have one or more user interface screens in this section. Each screen should be accompanied by an explaination of the screens purpose and how the user will interact with it. You should relate each screen to one another as the user transitions through the states of your application. You should also have a table that relates each window or component to the support using stories. 
 
