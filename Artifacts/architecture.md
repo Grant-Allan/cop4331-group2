@@ -56,11 +56,11 @@ We currently plan to make this a game to work on Windows computers. We may or ma
 
 # Internationalization/Localization
 
-
+For the purposes of the project we won't be doing any localization or internalization. We only require an English translation and the program to be written in C#.
 
 # Input/Output
 
-
+Nothing will be inputted or outputted due to the nature of a video game.
 
 # Error Processing
 
