@@ -15,7 +15,7 @@ Our vision is to create an engaging computer game composed of a series of miniga
 
 * [Product Backlog](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/product_backlog.md)
 * [Sprint Backlog](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint1_backlog.md)
-* [Requirements](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/requirements.md)
+* [Requirements](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint1_requirements.md)
 * [Trello Board](https://trello.com/b/k14W6q1c/cop4331-group2)
 * [Burndown Chart](https://docs.google.com/spreadsheets/d/18VUI8Ta6aBY3HgJH9A6JNLx4YcdEPwzw_UbUKSVFDfQ/edit?usp=sharing)
 * [Velocity Chart](https://docs.google.com/spreadsheets/d/16ysRusBVkkAfoPKgARBptCvqvAWeJbdyo0cIgsfH7g4/edit?usp=sharing)
@@ -25,8 +25,8 @@ Our vision is to create an engaging computer game composed of a series of miniga
 # Sprint 2
 
 * [Product Backlog](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/product_backlog.md)
-* [Sprint Backlog]()
-* [Requirements]()
+* [Sprint Backlog](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint2_backlog.md)
+* [Requirements](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint2_requirements.md)
 * [Trello Board](https://trello.com/b/k14W6q1c/cop4331-group2)
 * [Burndown Chart]()
 * [Velocity Chart]()
