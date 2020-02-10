@@ -52,11 +52,15 @@ The game will be able to be updated with new minigames to increase the games var
 
 # Interoperability
 
-
+We currently plan to make this a game to work on Windows computers. We may or may not make plans for capatibility with mobile devices further into the development cycle.
 
 # Internationalization/Localization
 
+
+
 # Input/Output
+
+
 
 # Error Processing
 
