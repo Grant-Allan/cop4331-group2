@@ -64,11 +64,19 @@ Nothing will be inputted or outputted due to the nature of a video game.
 
 # Error Processing
 
+Error Processing will be handled internally.
+
 # Fault Tolerance
+
+Our program will account for fault tolerance via good programming strategems.
 
 # Architectural Feasibility
 
+We will be conducting gampeplay tests internally to account for architectural feasibility.
+
 # Overengineering
+
+We have currently created the scope of our project with the 3 month development period in mind. We will tune back certain features if overengineering becomes a factor further into the development process.
 
 # Build-vs-Buy Decisions
 
