@@ -24,7 +24,7 @@ We are not using databases for this project. All data will be stored in data str
 
 # Business Rules
 
-You should list the assumptions, rules, and guidelines from external sources that are impacting your program design. 
+Currently there are no external guidelines or rules regarding our work. 
 
 # User Interface Design
 
