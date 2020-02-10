@@ -36,19 +36,23 @@ You should list the assumptions, rules, and guidelines from external sources tha
 
 # Resource Management
 
-
+Due to our group being comprimesd of college students, resources will be managed individually in accordance to our class schedules and budgets. Because of this, resource management does not apply to this project.
 
 # Security
 
-
+We are creating a game that users are able to modify if they please; therefore, we do not need any security measures put into place. 
 
 # Performance
 
-
+The performance of the game almost entirely relies on the capabilities of Unity and the users computer. Otherwise, we will write code with efficiency and speed in mind.
 
 # Scalability
 
+The game will be able to be updated with new minigames to increase the games variance between each play-through.
+
 # Interoperability
+
+
 
 # Internationalization/Localization
 
