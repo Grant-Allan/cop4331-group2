@@ -80,8 +80,12 @@ We have currently created the scope of our project with the 3 month development 
 
 # Build-vs-Buy Decisions
 
-This section should list the third party libraries your system is using and describe what those libraries are being used for.
+We have not yet decided on all the third party libraries that will be used in our game at this time.
 
 # Reuse
 
+The game will be able to be played as many times as the user desires.
+
 # Change Strategy
+
+...
