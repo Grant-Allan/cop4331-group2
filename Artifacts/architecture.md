@@ -12,6 +12,14 @@ Populate each section with information as it applies to your project. If a secti
 
 * [Classes and User Stories Table](https://docs.google.com/spreadsheets/d/10gMX3J2eLyLBGGlVqlST6ApMDbC5cVMB9u_VOisA83M/edit?usp=sharing)
 
+* Player class: this handles the main game mechanics and information for the player. The player's name, lives, and score are tied to this class. This information is accessed by the Leaderboard and Transistion classes, as they need this information to display it on the screen for the user. It has a composition relationship to the classes for each individual minigame, because all the minigames run off of this starting class. 
+* Main Menu (UI) class: This class handles the main display for the game, including all of its buttons and functionalities. It has a composition relationship to the Leadership and Transition classes because they don't exist without the Main Menu class first.
+* Leaderbeard (UI) class: This class displays the leaderboard and includes a button to exit back to the main menu screen.
+* Transition (UI) class: This class displays information between the minigames. This includes displays the lives and current level.
+* Game Over (UI) class: This class is the display shown when the game is lost. It includes a main menu button and an exit button. It also inherits from the transition class.
+* Minigames: Each of the many minigames will have its own class because they may have difference attributes and methods. As there will be many minigames, we felt it was too much to include in the class diagram. We kept it to the major classes. Each minigram class will inherit from a minigame interface, which has a set of standard attributes and methods that each should need.
+
+
 # Data Design
 
 We are not using databases for this project. All data will be stored in data structures of various types.
