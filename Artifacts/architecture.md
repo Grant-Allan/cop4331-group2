@@ -26,13 +26,17 @@ You should list the assumptions, rules, and guidelines from external sources tha
 
 * [UI and User Stories Table](https://drive.google.com/open?id=1_HayEiugMIzurYnrgulZgZl15rbOsW379TlGrbu7EnQ)
 
-You should have one or more user interface screens in this section. Each screen should be accompanied by an explaination of the screens purpose and how the user will interact with it. You should relate each screen to one another as the user transitions through the states of your application. You should also have a table that relates each window or component to the support using stories. 
-
 # Resource Management
+
+
 
 # Security
 
+
+
 # Performance
+
+
 
 # Scalability
 
