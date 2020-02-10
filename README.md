@@ -28,7 +28,7 @@ Our vision is to create an engaging computer game composed of a series of miniga
 * [Sprint Backlog](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint2_backlog.md)
 * [Requirements](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint2_requirements.md)
 * [Trello Board](https://trello.com/b/k14W6q1c/cop4331-group2)
-* [Burndown Chart]()
+* [Burndown Chart](https://docs.google.com/spreadsheets/d/1GYtfERSI4rJoO3p62OVhOv5eWVJH_H1caL8spRLaddA/edit?usp=sharing)
 * [Velocity Chart](https://docs.google.com/spreadsheets/d/16ysRusBVkkAfoPKgARBptCvqvAWeJbdyo0cIgsfH7g4/edit?usp=sharing)
 * Design Documents
     * [System Architecture Document](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/architecture.md)
