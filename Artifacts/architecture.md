@@ -35,13 +35,13 @@ Currently there are no external guidelines or rules regarding our work.
 
 * [UI and User Stories Table](https://drive.google.com/open?id=1_HayEiugMIzurYnrgulZgZl15rbOsW379TlGrbu7EnQ)
 
-* Main Menu Screen: First screen shown when you start the program. This screen displays 4 options: "Start Game," "Leaderboard," "Settings," and "Exit." Each of these buttons will lead to the next UI screen with the exception of "Exit."
-* Minigame Screen: Shown when the "Start Game" button is clicked in the Main Menu screen. This screen displays a randomly generated minigame for the user to play out. The minigame will be selected from a finite pool of minigames.
-* Pause Screen: While the user is in the Minigame Screen, the user may input the "Esc" button on the keyboard and enter the Pause Screen. This screen will display two options: "Unpause" and "Restart." "Unpause" will continue the game. "Restart" will restart the game from the beginning.
-* Leaderboard Screen: Can be accessed from the Main Menu Screen via the "Leaderboard" button. This screen will display the users highscores. Highscores have a direct correlation to the amount of minigames completed in a single play through the game.
-* Settings Screen: Can be accessed from the Main Menu Screen via the "Settings" button. Will provide an option to change the volume of the overall game. (More features may be added in the future)
-* Transistion Screen: Will be shown after the user has completed a minigame on the Minigame Screen. Will display the amount of lives left for the user and procceed to the next minigame.
-* Game Over Screen: Will be shown once the user has lost all lives (3 or 5). Will show an "ok" button that will take the user back to the Main Menu Screen.
+* Main Menu screen: First screen shown when you start the program. This screen displays 4 options: "Start Game," "Leaderboard," "Settings," and "Exit." Each of these buttons will lead to the next UI screen with the exception of "Exit."
+* Minigame screen: Shown when the "Start Game" button is clicked in the Main Menu screen. This screen displays a randomly generated minigame for the user to play out. The minigame will be selected from a finite pool of minigames.
+* Pause screen: While the user is in the Minigame screen, the user may input the "Esc" button on the keyboard and enter the Pause screen. This screen will display two options: "Unpause" and "Restart." "Unpause" will continue the game. "Restart" will restart the game from the beginning.
+* Leaderboard screen: Can be accessed from the Main Menu screen via the "Leaderboard" button. This screen will display the users highscores. Highscores have a direct correlation to the amount of minigames completed in a single play through the game.
+* Settings screen: Can be accessed from the Main Menu screen via the "Settings" button. Will provide an option to change the volume of the overall game. (More features may be added in the future)
+* Transistion screen: Will be shown after the user has completed a minigame on the Minigame screen. Will display the amount of lives left for the user and procceed to the next minigame.
+* Game Over screen: Will be shown once the user has lost all lives (3 or 5). Will show an "ok" button that will take the user back to the Main Menu screen.
 
 # Resource Management
 
