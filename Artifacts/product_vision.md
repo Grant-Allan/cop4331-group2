@@ -1,5 +1,5 @@
-# Product Vision
-Our vision is to create an engaging computer game composed of a series of minigames in the style of WarioWare. While our game will be accessible to players of all ages, our targeted audience ranges from preteens to young adults who are looking for simple, yet satisfying game play. Our game will be fun without requiring a huge time commitment or skill level. While our game is relatively simple, it will offer significant replay value through randomization. We will use an an 8bit animation style, and we plan to use C# and Unity engine to design our game.
+# Product Vision: Beezlebop Computer Game
+Our vision is to create an engaging computer game composed of a series of minigames in the style of WarioWare. While our game will be accessible to players of all ages, our targeted audience ranges from preteens to young adults who are looking for simple, yet satisfying gameplay. Our game will be fun without requiring a large time commitment or high skill level. What makes our game different from similar arcade-style computer games is that it will offer significant replay value through randomization. Additionally, we will use an an 8bit animation style.
 
 ## What is the target market?
 
