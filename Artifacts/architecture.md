@@ -4,6 +4,9 @@
 
 * [High Level Architecture and User Stories Table](https://docs.google.com/spreadsheets/d/1zdU818LYJrSiTwV1lMdpcRenk0wmDiD_mqKB8IdFmb8/edit?usp=sharing)
 
+* Player (person): The user of the game. The player directly controls the Game with user input. Only one person may use the game at a time. 
+* Game (Software System): Randomly generates a finite number of minigames in which the user will navigate till completion. Information will be stored from the user after completion of the game.
+
 # Major Classes
 
 * [Class Diagram](https://drive.google.com/open?id=1whEYAJHdVstfufMPsA3q2mUNBmp2zzbTo6CBhDky6mg)
@@ -20,7 +23,7 @@
 
 # Data Design
 
-We are not using databases for this project. All data will be stored in text files when the game is closed.
+We are not using databases for this project. All data will be stored in data structures of various types.
 
 # Business Rules
 
