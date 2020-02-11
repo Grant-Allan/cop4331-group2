@@ -23,7 +23,7 @@
 
 # Data Design
 
-We are not using databases for this project. All data will be stored in data structures of various types.
+We are not using databases for this project. All data will be stored in a text file.
 
 # Business Rules
 
