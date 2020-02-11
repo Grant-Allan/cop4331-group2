@@ -57,7 +57,7 @@ The performance of the game almost entirely relies on the capabilities of Unity 
 
 # Scalability
 
-The game will be able to be updated with new minigames to increase the games variance between each play-through.
+The game will be able to be updated with new minigames to increase the games variance between each play-through. Slightly, bigger, badder, and more dangerous minigames called "Boss Stages" can also be added into the mix to present more of a challenge to veteran "Beezlebop-ers."
 
 # Interoperability
 
