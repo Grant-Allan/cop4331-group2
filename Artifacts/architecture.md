@@ -1,17 +1,15 @@
 # Program Organization
 
-* [High Level System Context Diagram](https://drive.google.com/open?id=1fBGgtRbptirduLq4V3FgDUbiGbtzVavR3OgEFIwpN6A)
-
-* [High Level Architecture and User Stories Table](https://docs.google.com/spreadsheets/d/1zdU818LYJrSiTwV1lMdpcRenk0wmDiD_mqKB8IdFmb8/edit?usp=sharing)
+![System Context Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/system_context_diagram.png)
 
 * Player (person): The user of the game. The player directly controls the Game with user input. Only one person may use the game at a time. 
 * Game (Software System): Randomly generates a finite number of minigames in which the user will navigate till completion. Information will be stored from the user after completion of the game.
 
+* [High Level Architecture and User Stories Table](https://docs.google.com/spreadsheets/d/1zdU818LYJrSiTwV1lMdpcRenk0wmDiD_mqKB8IdFmb8/edit?usp=sharing)
+
 # Major Classes
 
-* [Class Diagram](https://drive.google.com/open?id=1whEYAJHdVstfufMPsA3q2mUNBmp2zzbTo6CBhDky6mg)
-
-* [Classes and User Stories Table](https://docs.google.com/spreadsheets/d/10gMX3J2eLyLBGGlVqlST6ApMDbC5cVMB9u_VOisA83M/edit?usp=sharing)
+![Class Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/class_diagram.png)
 
 * Player class: this handles the main game mechanics and information for the player. The player's name, lives, and score are tied to this class. This information is accessed by the Leaderboard and Transistion classes, as they need this information to display it on the screen for the user. It has a composition relationship to the classes for each individual minigame, because all the minigames run off of this starting class. 
 * Main Menu (UI) class: This class handles the main display for the game, including all of its buttons and functionalities. It has a composition relationship to the Leadership and Transition classes because they don't exist without the Main Menu class first.
@@ -20,6 +18,7 @@
 * Game Over (UI) class: This class is the display shown when the game is lost. It includes a main menu button and an exit button. It also inherits from the transition class.
 * Minigames: Each of the many minigames will have its own class because they may have difference attributes and methods. As there will be many minigames, we felt it was too much to include in the class diagram. We kept it to the major classes. Each minigram class will inherit from a minigame interface, which has a set of standard attributes and methods that each should need.
 
+* [Classes and User Stories Table](https://docs.google.com/spreadsheets/d/10gMX3J2eLyLBGGlVqlST6ApMDbC5cVMB9u_VOisA83M/edit?usp=sharing)
 
 # Data Design
 
@@ -31,9 +30,7 @@ Currently there are no external guidelines or rules regarding our work.
 
 # User Interface Design
 
-* [User Interface Diagram](https://drive.google.com/open?id=1FexvPpQ8Ox2AmTJ0VWvaqbrU6XRwpKBc0SEi-uM7ASg)
-
-* [UI and User Stories Table](https://drive.google.com/open?id=1_HayEiugMIzurYnrgulZgZl15rbOsW379TlGrbu7EnQ)
+![User Interface Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/user_interface_document.png)
 
 * Main Menu screen: First screen shown when you start the program. This screen displays 4 options: "Start Game," "Leaderboard," "Settings," and "Exit." Each of these buttons will lead to the next UI screen with the exception of "Exit."
 * Minigame screen: Shown when the "Start Game" button is clicked in the Main Menu screen. This screen displays a randomly generated minigame for the user to play out. The minigame will be selected from a finite pool of minigames.
@@ -42,6 +39,8 @@ Currently there are no external guidelines or rules regarding our work.
 * Settings screen: Can be accessed from the Main Menu screen via the "Settings" button. Will provide an option to change the volume of the overall game. (More features may be added in the future)
 * Transistion screen: Will be shown after the user has completed a minigame on the Minigame screen. Will display the amount of lives left for the user and procceed to the next minigame.
 * Game Over screen: Will be shown once the user has lost all lives (3 or 5). Will show an "ok" button that will take the user back to the Main Menu screen.
+
+* [UI and User Stories Table](https://drive.google.com/open?id=1_HayEiugMIzurYnrgulZgZl15rbOsW379TlGrbu7EnQ)
 
 # Resource Management
 
