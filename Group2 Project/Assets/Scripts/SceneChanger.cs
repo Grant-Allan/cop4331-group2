@@ -16,6 +16,11 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene("2 Leaderboard");
     }
 
+    public void Settings()
+    {
+        
+    }
+
     // Start is called before the first frame update
     void Start()
     {
