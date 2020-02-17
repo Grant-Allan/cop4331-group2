@@ -10,3 +10,4 @@
 | 005              | 003             | The main menu shall contain an option to quit the game                   | 1      | Necessary | Working |
 | 006              | 003             | When the quit option is selected, the game is quit   | 2      | Necessary | Working |
 |007 | 004 |  The main menu shall contain an option to view the settings | 1  | Necessary | Working |
+|008| 004 | When the view settings option is selected, the user is taken to the settings | 2 | Necessary | Working |
