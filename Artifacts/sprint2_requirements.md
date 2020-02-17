@@ -1,3 +1,5 @@
+# Requirements
+
 | Requirement ID | User Story ID | Requirement                                        | Effort | Priority  | Status   |
 |----------------|---------------|----------------------------------------------------|--------|-----------|----------|
 | 000              | 000             | The main menu shall appear when the game is started | 1      | Necessary | Working |
