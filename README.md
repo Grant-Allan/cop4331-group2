@@ -53,5 +53,5 @@ Our vision is to create an engaging computer game composed of a series of miniga
     * [Class Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/class_diagram.png)
     * [User Interface Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/user_interface_document.png)
 * [Source Code](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2%20Project/Assets/Scripts)
-* [Automated Tests]()
+* [Automated Tests](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2%20Project/Assets/Scripts/Editor/Tests)
 * [Demonstration]()
