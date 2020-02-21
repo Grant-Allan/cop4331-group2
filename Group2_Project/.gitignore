@@ -1,11 +1,3 @@
-#test
-*.dll
-*.json
-*.pdb
-*.dwlt
-*.csproj
-
-
 ###
 # Unity folders and files
 ###
