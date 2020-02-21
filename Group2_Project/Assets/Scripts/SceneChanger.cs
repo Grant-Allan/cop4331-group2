@@ -16,6 +16,7 @@ public class SceneChanger : MonoBehaviour
         SceneManager.LoadScene("2 Leaderboard");
     }
 
+
     public void Settings()
     {
         
