@@ -57,16 +57,16 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Editor\Tests\LeaderboardTest.cs" />
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>/home/gary/Desktop/cop4331-group2/Group2_Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>/home/gary/Desktop/branch/cop4331-group2/Group2_Project/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>/home/gary/Desktop/cop4331-group2/Group2_Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>/home/gary/Desktop/branch/cop4331-group2/Group2_Project/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>/home/gary/Desktop/cop4331-group2/Group2_Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>/home/gary/Desktop/branch/cop4331-group2/Group2_Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>/home/gary/Desktop/cop4331-group2/Group2_Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>/home/gary/Desktop/branch/cop4331-group2/Group2_Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>/home/gary/Unity/Hub/Editor/2019.2.21f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -258,7 +258,7 @@
  <HintPath>/home/gary/Unity/Hub/Editor/2019.2.21f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>/home/gary/Desktop/cop4331-group2/Group2_Project/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>/home/gary/Desktop/branch/cop4331-group2/Group2_Project/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>/home/gary/Unity/Hub/Editor/2019.2.21f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
