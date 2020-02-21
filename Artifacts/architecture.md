@@ -5,7 +5,28 @@
 * Player (person): The user of the game. The player directly controls the Game with user input. Only one person may use the game at a time. 
 * Game (Software System): Randomly generates a finite number of minigames in which the user will navigate till completion. Information will be stored from the user after completion of the game.
 
-* [High Level Architecture and User Stories Table](https://docs.google.com/spreadsheets/d/1zdU818LYJrSiTwV1lMdpcRenk0wmDiD_mqKB8IdFmb8/edit?usp=sharing)
+* High Level Architecture and User Stories Table
+
+| **ID** | **User Story**                                                                                              | **High Level Architecture** |
+| ------ | ----------------------------------------------------------------------------------------------------------- | --------------------------- |
+| 000    | As a player, I want a main menu, so that I can have access to the main game modes                           | Game                        |
+| 001    | As a player, I want a clickable play button, so that I can begin the game                                   | Game                        |
+| 002    | As a player, I want to access the leaderboard from the main menu, so that I can evaluate my performance     | Game & Player               |
+| 003    | As a player, I want a volume button, so I can control the volume of the music                               | Game                        |
+| 004    | As a player, I want a quit button, so that I can return to the main menu                                    | Game                        |
+| 005    | As a player, I want the controls displayed in the main menu, so that I know which buttons to use            | Game                        |
+| 006    | As a player, I want my winning scores to be entered in the leaderboard where I can enter my name            | Game & Player               |
+| 007    | As a player, I want to have multiple lives, so that I can have multiple chances when I lose a minigame      | Game                        |
+| 008    | As a player, I want to see my lives, so that I know when I could lose                                       | Game & Player               |
+| 009    | As a player, I want the minigames to keep cycling, so that I can keep playing until I lose                  | Game & Player               |
+| 010    | As a player, I want to have my level displayed, so that I know how far I am into the game                   | Game                        |
+| 011    | As a player, if I win a minigame I would like to progress to the next minigame so I can continue playing    | Game                        |
+| 012    | As a player, if I run out of lives I would like to return to the main menu so that I can replay             | Game & Player               |
+| 013    | As a player, I want the music and game to increase in tempo after each win so that the difficulty increases | Game                        |
+| 014    | As a player, I want a timer shown, so that I know when the minigame will end                                | Game                        |
+| 015    | As a player, I want appropriate, in-tempo music to accompany the minigames I play.                          | Mini Game                   |
+
+
 
 # Major Classes
 
@@ -18,7 +39,26 @@
 * Game Over (UI) class: This class is the display shown when the game is lost. It includes a main menu button and an exit button. It also inherits from the transition class.
 * Minigames: Each of the many minigames will have its own class because they may have difference attributes and methods. As there will be many minigames, we felt it was too much to include in the class diagram. We kept it to the major classes. Each minigram class will inherit from a minigame interface, which has a set of standard attributes and methods that each should need.
 
-* [Classes and User Stories Table](https://docs.google.com/spreadsheets/d/10gMX3J2eLyLBGGlVqlST6ApMDbC5cVMB9u_VOisA83M/edit?usp=sharing)
+* Classes and User Stories Table
+
+| **ID** | **User Story**                                                                                              | **Major Classes**       |
+| ------ | ----------------------------------------------------------------------------------------------------------- | ----------------------- |
+| 1      | As a player, I want a main menu, so that I can have access to the main game modes                           | Main Menu               |
+| 2      | As a player, I want a clickable play button, so that I can begin the game                                   | Main Menu               |
+| 3      | As a player, I want to access the leaderboard from the main menu, so that I can evaluate my performance     | Main Menu & Leaderboard |
+| 4      | As a player, I want a volume button, so I can control the volume of the music                               | Main Menu               |
+| 5      | As a player, I want a quit button, so that I can return to the main menu                                    | Transition              |
+| 6      | As a player, I want the controls displayed in the main menu, so that I know which buttons to use            | Main Menu               |
+| 7      | As a player, I want my winning scores to be entered in the leaderboard where I can enter my name            | Game Over & Leaderboard |
+| 8      | As a player, I want to have multiple lives, so that I can have multiple chances when I lose a minigame      | Transition              |
+| 9      | As a player, I want to see my lives, so that I know when I could lose                                       | Transition              |
+| 10     | As a player, I want the minigames to keep cycling, so that I can keep playing until I lose                  | Mini Game               |
+| 11     | As a player, I want to have my level displayed, so that I know how far I am into the game                   | Transistion             |
+| 12     | As a player, if I win a minigame I would like to progress to the next minigame so I can continue playing    | Transistion             |
+| 13     | As a player, if I run out of lives I would like to return to the main menu so that I can replay             | Game Over & Leaderboard |
+| 14     | As a player, I want the music and game to increase in tempo after each win so that the difficulty increases | Transistion             |
+| 15     | As a player, I want a timer shown, so that I know when the minigame will end                                | Mini Game               |
+| 16     | As a player, I want appropriate, in-tempo music to accompany the minigames I play.                          | Mini Game               |
 
 # Data Design
 
@@ -40,7 +80,26 @@ Currently there are no external guidelines or rules regarding our work.
 * Transistion screen: Will be shown after the user has completed a minigame on the Minigame screen. Will display the amount of lives left for the user and procceed to the next minigame.
 * Game Over screen: Will be shown once the user has lost all lives (3 or 5). Will show an "ok" button that will take the user back to the Main Menu screen.
 
-* [UI and User Stories Table](https://drive.google.com/open?id=1_HayEiugMIzurYnrgulZgZl15rbOsW379TlGrbu7EnQ)
+* UI and User Stories Table
+
+| **ID** | **User Story**                                                                                              | **User Interface Components** |
+| ------ | ----------------------------------------------------------------------------------------------------------- | ----------------------------- |
+| 1      | As a player, I want a main menu, so that I can have access to the main game modes                           | Main Menu                     |
+| 2      | As a player, I want a clickable play button, so that I can begin the game                                   | Main Menu                     |
+| 3      | As a player, I want to access the leaderboard from the main menu, so that I can evaluate my performance     | Main Menu & Leaderboard       |
+| 4      | As a player, I want a volume button, so I can control the volume of the music                               | Main Menu (Settings Pop-Up)   |
+| 5      | As a player, I want a quit button, so that I can return to the main menu                                    | Pause                         |
+| 6      | As a player, I want the controls displayed in the main menu, so that I know which buttons to use            | Main Menu                     |
+| 7      | As a player, I want my winning scores to be entered in the leaderboard where I can enter my name            | Game Over & Leaderboard       |
+| 8      | As a player, I want to have multiple lives, so that I can have multiple chances when I lose a minigame      | Transition                    |
+| 9      | As a player, I want to see my lives, so that I know when I could lose                                       | Transistion                   |
+| 10     | As a player, I want the minigames to keep cycling, so that I can keep playing until I lose                  | N/A                           |
+| 11     | As a player, I want to have my level displayed, so that I know how far I am into the game                   | Transistion                   |
+| 12     | As a player, if I win a minigame I would like to progress to the next minigame so I can continue playing    | Transistion                   |
+| 13     | As a player, if I run out of lives I would like to return to the main menu so that I can replay             | Game Over & Leaderboard       |
+| 14     | As a player, I want the music and game to increase in tempo after each win so that the difficulty increases | Transistion                   |
+| 15     | As a player, I want a timer shown, so that I know when the minigame will end                                | N/A                           |
+| 16     | As a player, I want appropriate, in-tempo music to accompany the minigames I play.                          | N/A                           |
 
 # Resource Management
 
