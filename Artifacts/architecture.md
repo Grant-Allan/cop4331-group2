@@ -113,9 +113,13 @@ We are creating a game that users are able to modify if they please; therefore, 
 
 The performance of the game almost entirely relies on the capabilities of Unity and the users computer. Otherwise, we will write code with efficiency and speed in mind.
 
+The graphics of the game are in a 2 Dimentional 8-Bit style, which should not be graphically intensive. We endeavor to code the randomization aspects of the minigames in the best way to maintain high performance.
+
 # Scalability
 
 The game will be able to be updated with new minigames to increase the games variance between each play-through. Slightly, bigger, badder, and more dangerous minigames called "Boss Stages" can also be added into the mix to present more of a challenge to veteran "Beezlebop-ers."
+
+The structure of our code will allow for the further addition of new minigames later down the line. This will be done by keeping the minigames self-contained, and not depending on other minigames. They will draw from a common interface with certain attributes that all minigames will need. This skeletons for new minigames will make for quick additions of new games.
 
 # Interoperability
 
@@ -127,7 +131,7 @@ For the purposes of the project we won't be doing any localization or internaliz
 
 # Input/Output
 
-Nothing will be inputted or outputted due to the nature of a video game.
+For input, the user will be using the computer WASD keys to navigate through the menus and the spacebar the confirm selections. When a player has finished a game, they will be prompted to input their name for their stats to be tracked on the leaderboard menu. The only output is the game being shown to the player through the screen and the music that accompanies it.
 
 # Error Processing
 
@@ -135,7 +139,7 @@ Error Processing will be handled internally.
 
 # Fault Tolerance
 
-Our program will account for fault tolerance via good programming strategems.
+Our program will account for fault tolerance via good programming strategies.
 
 # Architectural Feasibility
 
@@ -147,12 +151,12 @@ We have currently created the scope of our project with the 3 month development 
 
 # Build-vs-Buy Decisions
 
-We have not yet decided on all the third party libraries that will be used in our game at this time.
+We plan to build all of our UI components for this game. This includes designing our menu backgrounds and minigame components. The 8-bit music that is used in the game will be outsourced to be created by another individual. We will be using Unity and the included components of it's game engine to build and run our game.
 
 # Reuse
 
-The game will be able to be played as many times as the user desires.
+All of the software we use is planned to be created from ourselves, not being reused from other sources or projects. In using Unity, we have access to a lot of game components that we plan to use alongside our Unity Scripts of code.
 
 # Change Strategy
 
-...
+As changes are made down the line of development, we plan to make the code in an organized way to make it easy to alter. This includes using SOLID coding principles and Clean code practices. By organizing our minigames with the use of a minigame interface, if we decide to change a major component down the road, we can alter that interface and week the rest of the code intact.
