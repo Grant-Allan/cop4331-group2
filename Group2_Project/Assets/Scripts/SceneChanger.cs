@@ -17,6 +17,12 @@ public class SceneChanger : MonoBehaviour
     }
 
 
+    public void BackToMain()
+    {
+        SceneManager.LoadScene("0 Main Menu");
+    }
+
+
     public void Settings()
     {
         
