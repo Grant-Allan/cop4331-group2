@@ -11,7 +11,7 @@ public class FingerMovement : MonoBehaviour
     {
         // When space is pressed move object to the left of the screen.
         if (Input.GetKeyDown("space"))
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-1, 0) * speed;
+            GetComponent<Rigidbody2D>().velocity = new Vector2(-1, 0) * (speed + 3);
 
         // If the object reaches left boundary pull it back to the middle of the screen.
         if (transform.position.x <= -7.95)
