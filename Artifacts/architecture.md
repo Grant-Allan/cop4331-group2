@@ -95,7 +95,7 @@ Currently there are no external guidelines or rules regarding our work.
 ![Settings](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/settings.JPG)
 ![Game Over](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/game_over.JPG)
 
-* UI and User Stories Table
+* User Interface and User Stories Table
 
 | **ID** | **User Story**                                                                                              | **User Interface Components** |
 | ------ | ----------------------------------------------------------------------------------------------------------- | ----------------------------- |
