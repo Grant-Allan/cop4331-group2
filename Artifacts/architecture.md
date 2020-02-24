@@ -6,6 +6,19 @@
 Our game is designed to be played by one person at a time. The Player will play the game, view the leaderboard, and change the game settings through the BeezleBop Minigame Arcade gaming system. The gaming system itself will be developed by the Unity3D gaming engine, but our final product will run without any external dependencies.
 
 
+
+
+
+
+### Container Diagram
+![Container Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/container_diagram.png)
+
+* Player (person): The user of the game. The player directly controls the Game with user input. Only one person may use the game at a time. 
+* Game (Software System): Randomly generates a finite number of minigames in which the user will navigate till completion. Information will be stored from the user after completion of the game.
+* Computer Application (Container): The game will be accessed through an .exe file distributed to users. They will click this application to launch the program to play the game.
+* Unity (Container): Unity is the game engine that we used to create this program. The scripts were programmed using C# code and these were used to implement the game mechanics with prebuilt Unity features.
+
+
 ### High Level Architecture and User Stories Table
 
 | **ID** | **User Story**                                                                                              | **High Level Architecture** |
@@ -26,17 +39,6 @@ Our game is designed to be played by one person at a time. The Player will play 
 | 013    | As a player, I want the music and game to increase in tempo after each win so that the difficulty increases | Game                        |
 | 014    | As a player, I want a timer shown, so that I know when the minigame will end                                | Game                        |
 | 015    | As a player, I want appropriate, in-tempo music to accompany the minigames I play.                          | Mini Game                   |
-
-
-
-
-### Container Diagram
-![Container Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/container_diagram.png)
-
-* Player (person): The user of the game. The player directly controls the Game with user input. Only one person may use the game at a time. 
-* Game (Software System): Randomly generates a finite number of minigames in which the user will navigate till completion. Information will be stored from the user after completion of the game.
-* Computer Application (Container): The game will be accessed through an .exe file distributed to users. They will click this application to launch the program to play the game.
-* Unity (Container): Unity is the game engine that we used to create this program. The scripts were programmed using C# code and these were used to implement the game mechanics with prebuilt Unity features.
 
 
 
