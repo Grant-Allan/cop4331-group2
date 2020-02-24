@@ -1,7 +1,7 @@
 # Program Organization
 
 ### System Context Diagram
-![System Context Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/system_context_diagram.png)
+![System Context Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/new_system_context_diagram.png)
 ### Container Diagram
 ![Container Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/container_diagram.png)
 
