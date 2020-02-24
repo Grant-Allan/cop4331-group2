@@ -118,15 +118,15 @@ Currently there are no external guidelines or rules regarding our work.
 
 # Resource Management
 
-Due to our group being comprimesd of college students, resources will be managed individually in accordance to our class schedules and budgets. Because of this, resource management does not apply to this project.
+We will only need to perform resource management within the minigames of our Minigame Arcade. Many of our minigames only involve a few moving objects and so they will not require their own resource management plan as they use relatively few resources. However, we are planning a few minigames that require a large number of moving objects. The cost of instantiating and/or destroying a large number of objects can cause slowdowns of our CPU. In this case, we can improve performance by using object pooling, which decreases the load on the CPU.
 
 # Security
 
-We are creating a game that users are able to modify if they please; therefore, we do not need any security measures put into place. 
+We are creating a game that users are able to modify if they please; therefore, we do not need any security measures put into place. Furthermore, our videogame is singleplayer and will be locally run on the Player's computer, so we don't need to worry about securing user data. We conclude that security is not a consideration in our system architecture.
 
 # Performance
 
-The graphics of our game are in a 2 Dimentional 8-Bit style, which should not be graphically intensive. Furthermore, the minigames are the most computationally intesive part of our project, and because they are designed to be simple and independent, so they will have a high speed and low memory use. Because of these two factors, we believe that our game will perform well on any reasonable gaming computer.
+The graphics of our game are in a 2 Dimentional 8-Bit style, which should not be graphically intensive. Furthermore, the minigames are the most computationally intesive part of our project. These minigames are designed to be simple and independent, so they will have a low cpu and memory usage. Because of these two factors, we believe that our game will perform well under our system architecture on any reasonable gaming computer.
 
 
 
