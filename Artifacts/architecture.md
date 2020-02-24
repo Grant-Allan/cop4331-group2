@@ -8,8 +8,6 @@ Our game is designed to be played by one person at a time. The Player will play 
 
 
 
-
-
 ### Container Diagram
 ![Container Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/container_diagram.png)
 
@@ -22,6 +20,9 @@ Our game is designed to be played by one person at a time. The Player will play 
 ### Component Diagram
 ![Component Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/component_diagram.png)
 
+* Main Menu Container:
+  * Utilities: the settings, controls, and quit functionalities comprise the utilities component of the Main Menu Container. These functionalities are all essential to our product and must be achieved within the main menu.
+  * Leaderboard: the leaderboard component contains the highest scores achieved by users in the minigame loop. 
 
 
 ### High Level Architecture and User Stories Table
