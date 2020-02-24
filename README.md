@@ -67,6 +67,6 @@ Our vision is to create an engaging computer game composed of a series of miniga
 * [Burndown Chart](https://docs.google.com/spreadsheets/d/14KTDaSZzQPY1J2nu4uRfyVPcM_b75o-9f7X9l9Qz1D8/edit?usp=sharing)
 * [Velocity Chart](https://docs.google.com/spreadsheets/d/16ysRusBVkkAfoPKgARBptCvqvAWeJbdyo0cIgsfH7g4/edit?usp=sharing)
 * [System Architecture](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/architecture.md)
-* [Source Code](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2%20Project/Assets/Scripts)
-* [Automated Tests](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2%20Project/Assets/Scripts/Editor/Tests)
+* [Source Code](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts)
+* [Automated Tests](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts/Editor/Tests)
 * [Product Demonstration]()
