@@ -14,9 +14,10 @@ Our game is designed to be played by one person at a time. The Player will play 
 ![Container Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/container_diagram.png)
 
 * Player (person): The user of the game. The player directly controls the Game with user input. Only one person may use the game at a time. 
-* Game (Software System): Randomly generates a finite number of minigames in which the user will navigate till completion. Information will be stored from the user after completion of the game.
-* Computer Application (Container): The game will be accessed through an .exe file distributed to users. They will click this application to launch the program to play the game.
-* Unity (Container): Unity is the game engine that we used to create this program. The scripts were programmed using C# code and these were used to implement the game mechanics with prebuilt Unity features.
+* Game Context (Software System): The context created when the Player executes our product game. 
+* Main Menu Container: The main menu is the container which allows the Player to access all aspects of our project such as the settings, leaderboard, quit, and most importantly the minigame loop.
+* Minigame Loop: The minigame loop provides the Player with a series of minigames that the Player must beat in order to advance. The Player's score and health will be updated throughout the Minigame loop.
+
 
 
 ### High Level Architecture and User Stories Table
