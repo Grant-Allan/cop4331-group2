@@ -174,6 +174,6 @@ No preexisting software, test cases, data formats or other materials will be use
 
 # Change Strategy
 
-A lot of the content in our project is in highly independent minigames. This gives our project modularity and makes future changes more natural. If we wish to change an individual minigame, then we can make changes within the minigame without considering the rest of our product. Otherwise, if we want to make a change to the overall structure of our game, then we can use the modular minigames in any way we want, since they all run independently and make no assumptions about their context.
+A lot of the content in our project is within highly independent minigames. This gives our project modularity and makes future changes more natural. If we wish to change an individual minigame, then we can make changes within the minigame without considering the rest of our product. Otherwise, if we want to make a change to the overall structure of our game, then we can use the modular minigames in any way we want, since they all run independently and make no assumptions about their context.
 
 More generally, we plan to write the code in an organized way to make it easy to alter. This includes using SOLID coding principles and Clean code practices. We will meet biweekly to discuss future changes and how we can adapt our architecture to meet our project needs.
