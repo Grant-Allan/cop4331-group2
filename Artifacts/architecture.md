@@ -146,15 +146,15 @@ For the purposes of the project we won't be doing any localization or internaliz
 
 # Input/Output
 
-For input, the user will be using the computer WASD keys to navigate through the menus and the spacebar the confirm selections. When a player has finished a game, they will be prompted to input their name for their stats to be tracked on the leaderboard menu. The only output is the game being shown to the player through the screen and the music that accompanies it.
+For input the Player will be using the computer WASD keys to navigate through the menu and the spacebar to confirm selections. The Player will be using those same keys to play the minigames as well. When a player has finished a game, they will be prompted to input their name for their stats to be tracked on the leaderboard menu. All I/O errors will be caught by the Unity3D keyboard input system.
 
 # Error Processing
 
-Error Processing will be handled internally.
+Most of the error processing will be handled by the Unity3D engine. Because this is a video game and errors are less important than other software such as an online banking system, the user will not be notified of an error and the game program will continue as usual. All errors will be sent to the Console Window in Unity for debugging. Specifically, any bug or event that deviates from the intended behavior of our game will send an error to the console. However, error processing will never involve the Player in our final product.
 
 # Fault Tolerance
 
-Our program will account for fault tolerance via good programming strategies.
+In our development strategy, we will ignore small bugs and glitches because reliability and security is not the highest priority because we are designing a game. In this sense, fault tolerance is not very important for our project. Additionally, our minigames are all independent, and there are not many values being maintained in our program that could be erroneous or cause an error.
 
 # Architectural Feasibility
 
