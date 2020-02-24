@@ -1,6 +1,9 @@
 # Program Organization
 
+### System Context Diagram
 ![System Context Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/system_context_diagram.png)
+### Container Diagram
+![Container Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/container_diagram.png)
 
 * Player (person): The user of the game. The player directly controls the Game with user input. Only one person may use the game at a time. 
 * Game (Software System): Randomly generates a finite number of minigames in which the user will navigate till completion. Information will be stored from the user after completion of the game.
