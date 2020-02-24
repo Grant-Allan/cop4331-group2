@@ -5,7 +5,10 @@
 
 Our game is designed to be played by one person at a time. The Player will play the game, view the leaderboard, and change the game settings through the BeezleBop Minigame Arcade gaming system. The gaming system itself will be developed by the Unity3D gaming engine, but our final product will run without any external dependencies.
 
-
+| Context | User Story ID                                                                  |
+|---------|--------------------------------------------------------------------------------|
+| Player  | 002, 006, 008, 009, 012                                                        |
+| Game    | 000, 001, 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015 |
 
 
 ### Container Diagram
@@ -26,29 +29,6 @@ Our game is designed to be played by one person at a time. The Player will play 
 * Minigame Loop Container:
   * Minigames Component: This is a placeholder component for the many minigames we will have in our game. Each minigame will last a fixed amount of time, after which the minigame will end. The user will have either passed or failed the minigame. See the [minigames file](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/Minigames.md) for more information.
   * Health and Score Manager: During the Minigame Loop, the Player has a score and a health value that must be maintained. Every time the Player survives a minigame, their score increases. The Player enters the Minigame Loop with three hearts. If they pass a minigame, they keep all their hearts. Else if they fail a minigame, the Player loses one heart. These numbers must be updated throughout the Minigame Loop. When the number of hearts equals zero, we must exit the minigame loop and update the Leaderboard Component if necesary.
-
-
-
-### High Level Architecture and User Stories Table
-
-| **ID** | **User Story**                                                                                              | **High Level Architecture** |
-| ------ | ----------------------------------------------------------------------------------------------------------- | --------------------------- |
-| 000    | As a player, I want a main menu, so that I can have access to the main game modes                           | Game                        |
-| 001    | As a player, I want a clickable play button, so that I can begin the game                                   | Game                        |
-| 002    | As a player, I want to access the leaderboard from the main menu, so that I can evaluate my performance     | Game & Player               |
-| 003    | As a player, I want a volume button, so I can control the volume of the music                               | Game                        |
-| 004    | As a player, I want a quit button, so that I can return to the main menu                                    | Game                        |
-| 005    | As a player, I want the controls displayed in the main menu, so that I know which buttons to use            | Game                        |
-| 006    | As a player, I want my winning scores to be entered in the leaderboard where I can enter my name            | Game & Player               |
-| 007    | As a player, I want to have multiple lives, so that I can have multiple chances when I lose a minigame      | Game                        |
-| 008    | As a player, I want to see my lives, so that I know when I could lose                                       | Game & Player               |
-| 009    | As a player, I want the minigames to keep cycling, so that I can keep playing until I lose                  | Game & Player               |
-| 010    | As a player, I want to have my level displayed, so that I know how far I am into the game                   | Game                        |
-| 011    | As a player, if I win a minigame I would like to progress to the next minigame so I can continue playing    | Game                        |
-| 012    | As a player, if I run out of lives I would like to return to the main menu so that I can replay             | Game & Player               |
-| 013    | As a player, I want the music and game to increase in tempo after each win so that the difficulty increases | Game                        |
-| 014    | As a player, I want a timer shown, so that I know when the minigame will end                                | Game                        |
-| 015    | As a player, I want appropriate, in-tempo music to accompany the minigames I play.                          | Mini Game                   |
 
 
 
