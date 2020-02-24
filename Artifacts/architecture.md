@@ -1,6 +1,6 @@
 # Program Organization
 
-### System Context Diagram
+## System Context Diagram
 ![System Context Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/system_context_diagram.png)
 
 Our game is designed to be played by one person at a time. The Player will play the game, view the leaderboard, and change the game settings through the BeezleBop Minigame Arcade gaming system. The gaming system itself will be developed by the Unity3D gaming engine, but our final product will run without any external dependencies.
@@ -11,7 +11,7 @@ Our game is designed to be played by one person at a time. The Player will play 
 | Game    | 000, 001, 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016, 017, 018 |
 
 
-### Container Diagram
+## Container Diagram
 ![Container Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/final_container_diagram.png)
 
 * Player (person): The user of the game. The player directly controls the Game with user input. Only one person may use the game at a time. 
@@ -24,7 +24,7 @@ Our game is designed to be played by one person at a time. The Player will play 
 | Main Menu     | 000, 001, 002, 003, 004, 005,  006, 007               |
 | Minigame Loop | 008, 009, 010, 011, 012, 013, 014, 015, 016, 017, 018 |
 
-### Component Diagram
+## Component Diagram
 ![Component Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/component_diagram.png)
 
 * Main Menu Container:
