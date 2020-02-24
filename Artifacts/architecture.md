@@ -162,7 +162,11 @@ We will be conducting gampeplay tests internally to account for architectural fe
 
 # Overengineering
 
-We have currently created the scope of our project with the 3 month development period in mind. We will tune back certain features if overengineering becomes a factor further into the development process.
+We will keep our product robust without overengineering by sticking to SOLID coding principles. First we will construct the basic building blocks of our BeezleBop Minigame Arcade, which include the settings, quit, leaderboard, and game loop structure. Then we will focus on our minigames, which are all highly modular and exist only in one or a few different contexts. Because of this, we can make our code robust without overengineering. 
+
+We have currently created the scope of our project with the three month development period in mind.  Because our minigames are simple games for the Player to complete in 5-10 seconds, we can avoid overengineering by sticking to our ideal of simple, short minigames.  We will tune back certain features if overengineering becomes a factor further into the development process.
+
+
 
 # Build-vs-Buy Decisions
 
