@@ -92,3 +92,8 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+
+
+### random files that cause problems
+*.log
