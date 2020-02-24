@@ -69,4 +69,4 @@ Our vision is to create an engaging computer game composed of a series of miniga
 * [System Architecture](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/architecture.md)
 * [Source Code](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts)
 * [Automated Tests](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts/Editor/Tests)
-* [Product Demonstration]()
+* [Product Demonstration](https://www.youtube.com/watch?v=Kwbb5Gpw6R4&feature=youtu.be)
