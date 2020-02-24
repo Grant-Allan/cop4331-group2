@@ -7,6 +7,8 @@
 
 * Player (person): The user of the game. The player directly controls the Game with user input. Only one person may use the game at a time. 
 * Game (Software System): Randomly generates a finite number of minigames in which the user will navigate till completion. Information will be stored from the user after completion of the game.
+* Computer Application (Container): The game will be accessed through an .exe file distributed to users. They will click this application to launch the program to play the game.
+* Unity (Container): Unity is the game engine that we used to create this program. The scripts were programmed using C# code and these were used to implement the game mechanics with prebuilt Unity features.
 
 * High Level Architecture and User Stories Table
 
