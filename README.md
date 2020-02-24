@@ -3,6 +3,24 @@ We will create an engaging computer game composed of a series of minigames in th
 
 [Extended info](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/product_vision.md)
 
+For completeness, we list some of our planned minigames below.
+
+## Minigames
+
+1. Ear Plugger
+2. Cat in the Rain
+3. Eating Corn
+4. Jumping Cars
+5. Luna-pants-lander
+6. Jumping rope
+7. Card Matching
+8. Wall Jumper
+9. Coughing Dab
+10. Golphing (Power Bar)
+11. FPS shooting planes or ships
+
+[Minigame info](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/Minigames.md)
+
 ---
 ## Team Members
 
