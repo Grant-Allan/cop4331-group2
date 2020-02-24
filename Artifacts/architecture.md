@@ -21,8 +21,12 @@ Our game is designed to be played by one person at a time. The Player will play 
 ![Component Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/component_diagram.png)
 
 * Main Menu Container:
-  * Utilities: the settings, controls, and quit functionalities comprise the utilities component of the Main Menu Container. These functionalities are all essential to our product and must be achieved within the main menu.
-  * Leaderboard: the leaderboard component contains the highest scores achieved by users in the minigame loop. 
+  * Utilities Component: the settings, controls, and quit functionalities comprise the utilities component of the Main Menu Container. These functionalities are all essential to our product and must be achieved within the main menu.
+  * Leaderboard Component: the leaderboard component contains the highest scores achieved by users in the minigame loop. The leaderboard is contained within the main menu and is a key part of the menu's functionality. The leaderboard is updated by the Minigame Loop Container when the player dies at a high enough score.
+* Minigame Loop Container:
+  * Minigames Component: This is a placeholder component for the many minigames we will have in our game. Each minigame will last a fixed amount of time, after which the minigame will end. The user will have either passed or failed the minigame. See the [minigames file](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/Minigames.md) for more information.
+  * Health and Score Manager: During the Minigame Loop, the Player has a score and a health value that must be maintained. Every time the Player survives a minigame, their score increases. The Player enters the Minigame Loop with three hearts. If they pass a minigame, they keep all their hearts. Else if they fail a minigame, the Player loses one heart. These numbers must be updated throughout the Minigame Loop. When the number of hearts equals zero, we must exit the minigame loop and update the Leaderboard Component if necesary.
+
 
 
 ### High Level Architecture and User Stories Table
