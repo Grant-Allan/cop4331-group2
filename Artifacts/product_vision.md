@@ -9,6 +9,11 @@ Our product is an entry-level video game. It will be designed to be appropriate 
 
 Our product will provide entertainment. It offers a simple, yet satisfying gaming experience without a large time commitment.
 
+## What distinguishes our product?
+
+Our product will have a significant randomized element, which will add replay value to our work.
+
+
 ## What are the key features of this product?
 * Short, themed minigames set to an accelerating tempo
 * Boss battles
