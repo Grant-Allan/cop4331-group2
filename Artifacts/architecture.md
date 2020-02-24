@@ -158,13 +158,12 @@ Our program will account for fault tolerance via good programming strategies.
 
 # Architectural Feasibility
 
-We will be conducting gampeplay tests internally to account for architectural feasibility.
+Our architecture is relatively simple. Our minigames are designed to be small, manageable game programs within the Minigame Arcade, so implementing them should not be too much difficulty. All of us have some experience with C# and we are in the process of learning Unity3D, and we believe our architecture is feasible within the development period. Furthermore, because our project uses simple 2D graphics and only runs one simple minigame at a time without requiring much memory, we are confident that our product will be executable on any desktop computer suitable for gaming.
+
 
 # Overengineering
 
-We will keep our product robust without overengineering by sticking to SOLID coding principles. First we will construct the basic building blocks of our BeezleBop Minigame Arcade, which include the settings, quit, leaderboard, and game loop structure. Then we will focus on our minigames, which are all highly modular and exist only in one or a few different contexts. Because of this, we can make our code robust without overengineering. 
-
-We have currently created the scope of our project with the three month development period in mind. We envision our minigames as being simple and relatively short, so we can avoid overengineering by sticking to our ideal of simple, short minigames. We will tune back certain features if overengineering becomes a factor further into the development process.
+We will keep our product robust without overengineering by sticking to SOLID coding principles. First we will construct the basic building blocks of our BeezleBop Minigame Arcade, which include the settings, quit, leaderboard, and game loop structure. Then we will focus on our minigames, which are all highly modular and exist only in one or a few different contexts. Because of this, we can make our code robust without overengineering. We have currently created the scope of our project with the three month development period in mind. We envision our minigames as being simple and relatively short, so we can avoid overengineering by sticking to our ideal of simple, short minigames. We will tune back certain features if overengineering becomes a factor further into the development process.
 
 
 
