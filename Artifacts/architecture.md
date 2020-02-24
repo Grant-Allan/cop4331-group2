@@ -71,11 +71,11 @@ Our game is designed to be played by one person at a time. The Player will play 
 
 # Data Design
 
-We are not using databases for this project. All data will be stored in a text file.
+No data will be saved when the product game is closed. All local variables like Player health, score, name, volume and et cetera will be handled by our scripts will the product game is running. Data design does not apply to our project.
 
 # Business Rules
 
-Currently there are no external guidelines or rules regarding our work. 
+Currently, there are no official rules or guidelines we must follow regarding video games. However, we will strive to make sure our game is understandable and playable by people of all levels of videogame experience.
 
 # User Interface Design
 
