@@ -84,7 +84,7 @@ For completeness, we list some of our planned minigames below.
 * [Requirements](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint4_requirements.md)
 * [Burndown Chart](https://docs.google.com/spreadsheets/d/1X6e6EUzxTMkqY7Jb7QP2s6J0JiuM1amxs1V8YjBvA9Y/edit?usp=sharing)
 * [Velocity Chart](https://docs.google.com/spreadsheets/d/16ysRusBVkkAfoPKgARBptCvqvAWeJbdyo0cIgsfH7g4/edit?usp=sharing)
-* [System Architecture](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/architecture.md)
+* [Product Design Documents](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/architecture.md)
 * [Source Code](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts)
 * [Automated Tests](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts/Editor/Tests)
 * [Product Demonstration](https://www.youtube.com/watch?v=Kwbb5Gpw6R4&feature=youtu.be)
