@@ -20,7 +20,7 @@ Our game is designed to be played by one person at a time. The Player will play 
 
 
 ### Component Diagram
-![Component Diagram]()
+![Component Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/component_diagram.png)
 
 
 
