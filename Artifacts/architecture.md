@@ -5,10 +5,10 @@
 
 Our game is designed to be played by one person at a time. The Player will play the game, view the leaderboard, and change the game settings through the BeezleBop Minigame Arcade gaming system. The gaming system itself will be developed by the Unity3D gaming engine, but our final product will run without any external dependencies.
 
-| System Context | User Story ID                                                                  |
-|---------|--------------------------------------------------------------------------------|
-| Player  | 002, 006, 008, 009, 012                                                        |
-| Game    | 000, 001, 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015 |
+| Context | User Story ID                                                                                 |
+|---------|-----------------------------------------------------------------------------------------------|
+| Player  | 002, 006, 008, 009, 012                                                                       |
+| Game    | 000, 001, 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015, 016, 017, 018 |
 
 
 ### Container Diagram
@@ -19,6 +19,10 @@ Our game is designed to be played by one person at a time. The Player will play 
 * Main Menu Container: The main menu is the container which allows the Player to access all aspects of our project such as the settings, leaderboard, quit, and most importantly the minigame loop.
 * Minigame Loop Container: The minigame loop provides the Player with a series of minigames that the Player must beat in order to advance. The Player's score and health will be updated throughout the Minigame loop.
 
+| Container     | User Story ID                                         |
+|---------------|-------------------------------------------------------|
+| Main Menu     | 000, 001, 002, 003, 004, 005,  006, 007               |
+| Minigame Loop | 008, 009, 010, 011, 012, 013, 014, 015, 016, 017, 018 |
 
 ### Component Diagram
 ![Component Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/component_diagram.png)
@@ -30,7 +34,12 @@ Our game is designed to be played by one person at a time. The Player will play 
   * Minigames Component: This is a placeholder component for the many minigames we will have in our game. Each minigame will last a fixed amount of time, after which the minigame will end. The user will have either passed or failed the minigame. See the [minigames file](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/Minigames.md) for more information.
   * Health and Score Manager: During the Minigame Loop, the Player has a score and a health value that must be maintained. Every time the Player survives a minigame, their score increases. The Player enters the Minigame Loop with three hearts. If they pass a minigame, they keep all their hearts. Else if they fail a minigame, the Player loses one heart. These numbers must be updated throughout the Minigame Loop. When the number of hearts equals zero, we must exit the minigame loop and update the Leaderboard Component if necesary.
 
-
+| Component                | User Story ID                |
+|--------------------------|------------------------------|
+| Utilities                | 001, 003, 004, 005, 006      |
+| Leaderboard              | 002, 007                     |
+| Minigame                 | 010, 012, 015, 016, 017, 018 |
+| Health and Score Manager | 007, 009, 011, 013, 014,     |
 
 
 # Major Classes
