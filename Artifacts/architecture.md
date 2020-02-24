@@ -19,6 +19,10 @@ Our game is designed to be played by one person at a time. The Player will play 
 * Minigame Loop Container: The minigame loop provides the Player with a series of minigames that the Player must beat in order to advance. The Player's score and health will be updated throughout the Minigame loop.
 
 
+### Component Diagram
+![Component Diagram]()
+
+
 
 ### High Level Architecture and User Stories Table
 
