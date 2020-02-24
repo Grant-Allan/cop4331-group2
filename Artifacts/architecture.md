@@ -126,27 +126,25 @@ We are creating a game that users are able to modify if they please; therefore, 
 
 # Performance
 
-The performance of the game almost entirely relies on the capabilities of Unity and the users computer. Otherwise, we will write code with efficiency and speed in mind.
+The graphics of our game are in a 2 Dimentional 8-Bit style, which should not be graphically intensive. Furthermore, the minigames are the most computationally intesive part of our project, and because they are designed to be simple and independent, so they will have a high speed and low memory use. Because of these two factors, we believe that our game will perform well on any reasonable gaming computer.
 
-The graphics of the game are in a 2 Dimentional 8-Bit style, which should not be graphically intensive. We endeavor to code the randomization aspects of the minigames in the best way to maintain high performance.
+
 
 # Scalability
 
-The game will be able to be updated with new minigames to increase the games variance between each play-through. Slightly, bigger, badder, and more dangerous minigames called "Boss Stages" can also be added into the mix to present more of a challenge to veteran "Beezlebop-ers."
-
-The structure of our code will allow for the further addition of new minigames later down the line. This will be done by keeping the minigames self-contained, and not depending on other minigames. They will draw from a common interface with certain attributes that all minigames will need. This skeletons for new minigames will make for quick additions of new games.
+The game will be able to be updated with new minigames to increase the games variance between each playthrough. Slightly bigger, badder, and more dangerous minigames called "Boss Stages" can also be added into the mix to present more of a challenge to veteran "Beezlebop-ers." The structure of our code will allow for the further addition of new minigames later down the line. This will be done by keeping the minigames self-contained, and not depending on other minigames. They will draw from a common interface with certain attributes that all minigames will need.
 
 # Interoperability
 
-We currently plan to make this a game to work on Windows computers. We may or may not make plans for capatibility with mobile devices further into the development cycle.
+Our product will not need to share data or resources with any other software or hardware because it is created within the Unity3D engine. Interoperability is not a consideration in our system architecture.
 
 # Internationalization/Localization
 
-For the purposes of the project we won't be doing any localization or internalization. We only require an English translation and the program to be written in C#.
+Our project will only be released within the United States in English, so this section does not apply. 
 
 # Input/Output
 
-For input the Player will be using the computer WASD keys to navigate through the menu and the spacebar to confirm selections. The Player will be using those same keys to play the minigames as well. When a player has finished a game, they will be prompted to input their name for their stats to be tracked on the leaderboard menu. All I/O errors will be caught by the Unity3D keyboard input system.
+For input the Player will be using the computer WASD keys to navigate through the menu and the spacebar to confirm selections. The Player will be using those same keys to play the minigames as well. When a player has finished a game, they will be prompted to input their name for their stats to be tracked on the leaderboard menu. All I/O errors will be handled by the Unity3D input system.
 
 # Error Processing
 
@@ -158,7 +156,7 @@ In our development strategy, we will ignore small bugs and glitches because reli
 
 # Architectural Feasibility
 
-Our architecture is relatively simple. Our minigames are designed to be small, manageable game programs within the Minigame Arcade, so implementing them should not be too much difficulty. All of us have some experience with C# and we are in the process of learning Unity3D, and we believe our architecture is feasible within the development period. Furthermore, because our project uses simple 2D graphics and only runs one simple minigame at a time without requiring much memory, we are confident that our product will be executable on any desktop computer suitable for gaming.
+Our architecture is relatively simple. The basic components of our product like the leaderboard, settings, and game play cycle are all relatively simple and easy to implement. Our minigames are designed to be small, manageable game programs within the Minigame Arcade, so implementing them should not be too much difficulty. All of us have some experience with C# and we are in the process of learning Unity3D, and we believe our architecture is feasible within the development period. 
 
 
 # Overengineering
