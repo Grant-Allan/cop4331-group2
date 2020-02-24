@@ -64,7 +64,7 @@ Our vision is to create an engaging computer game composed of a series of miniga
 * [Responsibilities](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint4_responsibilities.md)
 * [Trello Board](https://trello.com/b/k14W6q1c/cop4331-group2)
 * [Requirements](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint4_requirements.md)
-* [Burndown Chart](https://docs.google.com/spreadsheets/d/14KTDaSZzQPY1J2nu4uRfyVPcM_b75o-9f7X9l9Qz1D8/edit?usp=sharing)
+* [Burndown Chart](https://docs.google.com/spreadsheets/d/1X6e6EUzxTMkqY7Jb7QP2s6J0JiuM1amxs1V8YjBvA9Y/edit?usp=sharing)
 * [Velocity Chart](https://docs.google.com/spreadsheets/d/16ysRusBVkkAfoPKgARBptCvqvAWeJbdyo0cIgsfH7g4/edit?usp=sharing)
 * [System Architecture](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/architecture.md)
 * [Source Code](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts)
