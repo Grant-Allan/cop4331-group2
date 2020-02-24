@@ -71,7 +71,7 @@ Our game is designed to be played by one person at a time. The Player will play 
 
 # Data Design
 
-No data will be saved when the product game is closed. All local variables like Player health, score, name, volume and et cetera will be handled by our scripts will the product game is running. Data design does not apply to our project.
+Internally, we will need to maintain data pertaining to the Player such as health, score, name, volume and et cetera. These data values will be local variables that we can store and modify as needed. These data values will belong to Unity GameObjects and will be handled by scripts when the game is running. No data will be saved when the product game is closed. We do not need to consider our database in our project.
 
 # Business Rules
 
