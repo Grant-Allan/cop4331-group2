@@ -166,7 +166,7 @@ We have currently created the scope of our project with the 3 month development 
 
 # Build-vs-Buy Decisions
 
-We are building this project on the free Unity3D game engine. All software in our final product will be built by us. All animation drawings will be drawn by us, and the 8-bit music that will be used in the game will be outsourced to another individual at no expense to us. The Unity3D game engine and all the packages in the Unity3D asset store are free, so using this software comes at no cost to us. Unity3D provides significant software functionality with its built-in user interface system. We will have no need to buy any additional software for our final product.
+We are building this project on the free Unity3D game engine. All software in our final product will be built by us. All animation drawings will be drawn by us, and the 8-bit music that will be used in the game will be outsourced to another individual at no expense to us. The Unity3D game engine and all the packages in the Unity3D asset store are free, so using this software comes at no cost to us. Unity3D provides significant software functionality with its built-in user interface system. We will have no need to buy any additional software for our final product. Because all the existing software that would be useful to us is free, our Build-vs-Buy decision was very straightforward.
 
 # Reuse
 
