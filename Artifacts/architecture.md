@@ -94,10 +94,17 @@ Currently, there are no official rules or guidelines we must follow regarding vi
 * Transistion screen: Will be shown after the user has completed a minigame on the Minigame screen. Will display the amount of lives left for the user and procceed to the next minigame.
 * Game Over screen: Will be shown once the user has lost all lives (3 or 5). Will show an "ok" button that will take the user back to the Main Menu screen.
 
+## UI Screens
+
+### Main Menu
 ![Main Menu](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/main_menu.JPG)
+### Pause
 ![Pause](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/pause.JPG)
+### Leaderboard
 ![Leaderboard](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/leaderboard.JPG)
+### Settings
 ![Settings](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/settings.JPG)
+### Game Over
 ![Game Over](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/game_over.JPG)
 
 * User Interface and User Stories Table
