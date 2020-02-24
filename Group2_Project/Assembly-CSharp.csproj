@@ -55,11 +55,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FingerMovement.cs" />
      <Compile Include="Assets\Scripts\DoQuit.cs" />
+     <Compile Include="Assets\Scripts\FingerMovement.cs" />
      <Compile Include="Assets\Scripts\health.cs" />
      <Compile Include="Assets\Scripts\SceneChanger.cs" />
      <Compile Include="Assets\Scripts\score.cs" />
+     <Compile Include="Assets\Scripts\TimeBar.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
