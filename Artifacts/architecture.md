@@ -12,7 +12,7 @@ Our game is designed to be played by one person at a time. The Player will play 
 
 
 ### Container Diagram
-![Container Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/container_diagram.png)
+![Container Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/final_container_diagram.png)
 
 * Player (person): The user of the game. The player directly controls the Game with user input. Only one person may use the game at a time. 
 * Game Context (Software System): The context created when the Player executes our product game. 
