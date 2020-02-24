@@ -2,6 +2,8 @@
 
 ### System Context Diagram
 ![System Context Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/final_system_context_diagram.png)
+
+
 Our game is designed to be played by one person at a time. 
 
 ### Container Diagram
