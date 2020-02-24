@@ -9,4 +9,5 @@
 * Gary:
   * Adding transition screen and death screen
   * Testing the requirements from settings, leaderboard, quit, and Finger in Ear Minigame
+  * Helping Update System Architecture document
 * Russell:
