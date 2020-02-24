@@ -16,7 +16,7 @@ Our game is designed to be played by one person at a time. The Player will play 
 * Player (person): The user of the game. The player directly controls the Game with user input. Only one person may use the game at a time. 
 * Game Context (Software System): The context created when the Player executes our product game. 
 * Main Menu Container: The main menu is the container which allows the Player to access all aspects of our project such as the settings, leaderboard, quit, and most importantly the minigame loop.
-* Minigame Loop: The minigame loop provides the Player with a series of minigames that the Player must beat in order to advance. The Player's score and health will be updated throughout the Minigame loop.
+* Minigame Loop Container: The minigame loop provides the Player with a series of minigames that the Player must beat in order to advance. The Player's score and health will be updated throughout the Minigame loop.
 
 
 
