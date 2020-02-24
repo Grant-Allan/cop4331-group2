@@ -5,7 +5,7 @@
 
 Our game is designed to be played by one person at a time. The Player will play the game, view the leaderboard, and change the game settings through the BeezleBop Minigame Arcade gaming system. The gaming system itself will be developed by the Unity3D gaming engine, but our final product will run without any external dependencies.
 
-| Context | User Story ID                                                                  |
+| System Context | User Story ID                                                                  |
 |---------|--------------------------------------------------------------------------------|
 | Player  | 002, 006, 008, 009, 012                                                        |
 | Game    | 000, 001, 002, 003, 004, 005, 006, 007, 008, 009, 010, 011, 012, 013, 014, 015 |
