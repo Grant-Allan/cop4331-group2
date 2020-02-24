@@ -7,6 +7,6 @@
   * Designed and built Ear Plugger MicroGame. 
   * Learning Unity3D
 * Gary:
-  * Testing the requirements from settings, leaderboard, quit, and Finger in Ear Minigame
   * Adding transition screen and death screen
+  * Testing the requirements from settings, leaderboard, quit, and Finger in Ear Minigame
 * Russell:
