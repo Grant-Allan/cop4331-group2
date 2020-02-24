@@ -4,7 +4,7 @@
 ![System Context Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/system_context_diagram.png)
 
 
-Our game is designed to be played by one person at a time. The Player will play the game, view the leaderboard, and change the game settings through the BeezleBop Minigame Arcade gaming system. The gaming system itself will be developed by the Unity3D gaming engine, but our final product will run on a simple .exe file without any external dependencies.
+Our game is designed to be played by one person at a time. The Player will play the game, view the leaderboard, and change the game settings through the BeezleBop Minigame Arcade gaming system. The gaming system itself will be developed by the Unity3D gaming engine, but our final product will run without any external dependencies.
 
 ### Container Diagram
 ![Container Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/container_diagram.png)
@@ -170,8 +170,10 @@ We plan to build all of our UI components for this game. This includes designing
 
 # Reuse
 
-All of the software we use is planned to be created from ourselves, not being reused from other sources or projects. In using Unity, we have access to a lot of game components that we plan to use alongside our Unity Scripts of code.
+No preexisting software, test cases, data formats or other materials will be used in our product, so this section is not applicable. 
 
 # Change Strategy
 
-As changes are made down the line of development, we plan to make the code in an organized way to make it easy to alter. This includes using SOLID coding principles and Clean code practices. By organizing our minigames with the use of a minigame interface, if we decide to change a major component down the road, we can alter that interface and week the rest of the code intact.
+A lot of the content in our project is in highly independent minigames. This gives our project modularity and makes future changes more natural. If we wish to change an individual minigame, then we can make changes within the minigame without considering the rest of our product. Otherwise, if we want to make a change to the overall structure of our game, then we can use the modular minigames in any way we want, since they all run independently and make no assumptions about their context.
+
+More generally, we plan to write the code in an organized way to make it easy to alter. This includes using SOLID coding principles and Clean code practices. We will meet biweekly to discuss future changes and how we can adapt our architecture to meet our project needs.
