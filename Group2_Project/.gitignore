@@ -93,7 +93,3 @@ sysinfo.txt
 crashlytics-build.properties
 
 
-
-
-### random files that cause problems
-*.log
