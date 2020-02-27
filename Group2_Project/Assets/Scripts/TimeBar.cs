@@ -2,25 +2,50 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class TimeBar : MonoBehaviour
 {
-    private Slider slider;
+    //public Text timeText;
 
-    private void Awake()
+    public float startingTime = 3.0f;
+    public Slider Timer;
+
+    // Use this for initialization
+    void Start()
     {
-        slider = gameObject.GetComponent<Slider>();
+        Timer = GetComponent<Slider>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        
-    }
 
-    // Minus time from the bar
-    public void DecreaseTime(float time)
-    {
-        slider.value -= time;
+        startingTime -= Time.deltaTime;
+        Timer.value = startingTime;
+
+        if (startingTime <= 0)
+        {
+            startingTime = 0;
+
+            if (PlayerStats.pass == false)
+            {
+                PlayerStats.health -= 1;
+            }
+            else
+            {
+                PlayerStats.score += 1;
+            }
+
+
+            if (PlayerStats.health == 0)
+            {
+                SceneManager.LoadScene("DeathScene");
+            }
+            else
+            {
+                SceneManager.LoadScene("TransitionScene");
+            }
+        }
     }
 }
