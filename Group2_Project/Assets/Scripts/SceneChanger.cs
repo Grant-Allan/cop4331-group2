@@ -8,7 +8,7 @@ public class SceneChanger : MonoBehaviour
 
     public void Scene2()
     {
-        SceneManager.LoadScene("1 Game World");
+        SceneManager.LoadScene("TransitionScene");
     }
 
     public void Leaderboard()

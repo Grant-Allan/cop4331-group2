@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/2 Leaderboard.unity
     guid: 29f4fc3a19840bb4d8c6e37a22dfa569
+  - enabled: 1
+    path: Assets/Scenes/DeathScene.unity
+    guid: ad536e3fdb6aff8438d4137d92ae9ca9
+  - enabled: 1
+    path: Assets/Scenes/TransitionScene.unity
+    guid: 2e7560aac6eb4e54c84de5466244736a
   m_configObjects: {}
