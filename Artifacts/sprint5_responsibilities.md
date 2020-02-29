@@ -1,0 +1,8 @@
+* Rashawn: 
+  * 
+* Christian: 
+  * 
+* Gary:
+  * 
+* Russell:
+  *
