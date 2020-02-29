@@ -89,3 +89,18 @@ For completeness, we list some of our planned minigames below.
 * [Automated Tests](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts/Editor/Tests)
 * [Manual Tests](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/manual_tests.md)
 * [Product Demonstration](https://www.youtube.com/watch?v=Kwbb5Gpw6R4&feature=youtu.be)
+
+---
+
+# Sprint 5
+
+* [Responsibilities](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint5_responsibilities.md)
+* [Trello Board](https://trello.com/b/k14W6q1c/cop4331-group2)
+* [Requirements](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint5_requirements.md)
+* [Burndown Chart](https://docs.google.com/spreadsheets/d/1X6e6EUzxTMkqY7Jb7QP2s6J0JiuM1amxs1V8YjBvA9Y/edit?usp=sharing)
+* [Velocity Chart](https://docs.google.com/spreadsheets/d/16ysRusBVkkAfoPKgARBptCvqvAWeJbdyo0cIgsfH7g4/edit?usp=sharing)
+* [Product Design Documents](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/architecture.md)
+* [Source Code](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts)
+* [Automated Tests](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts/Editor/Tests)
+* [Manual Tests](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/manual_tests.md)
+* [Product Demonstration](https://www.youtube.com/watch?v=Kwbb5Gpw6R4&feature=youtu.be)
