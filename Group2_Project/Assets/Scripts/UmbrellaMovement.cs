@@ -6,7 +6,13 @@ public class UmbrellaMovement : MonoBehaviour
 {
     public float speed = 9;
 
+    // Start is called before the first frame update
+    void Start()
+    {
+        GetComponent<Rigidbody2D>().velocity = new Vector2(1, 0) * (speed / 3);
+    }
 
+    // Update is called once per frame
     void Update()
     {
         GetComponent<Rigidbody2D>().gravityScale = 0;
