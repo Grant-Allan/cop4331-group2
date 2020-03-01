@@ -17,7 +17,8 @@ public class FingerMovement : MonoBehaviour
         GetComponent<Rigidbody2D>().velocity = new Vector2(1, 0) * (speed - 3);
 
         // Spawn the ear fungus at end of finger
-        Instantiate(earFungus, fungusPos.position, fungusPos.rotation);
+        earFungus = Instantiate(earFungus, fungusPos.position, fungusPos.rotation);
+        earFungus.transform.parent = transform;
     }
 
     void Update()
