@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class CatMovement : MonoBehaviour
 {
-    public float speed = 9;
+    public float speed = 8;
+    public float accelerationTime = 0.5f;
+    private float timeLeft;
+    private int randomDir;
 
     // Start is called before the first frame update
     void Start()
@@ -15,21 +18,25 @@ public class CatMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        int randDir = Random.Range(1, 3);
+        //Creating random movement for cat
+        timeLeft -= (Time.deltaTime * 2);
+        randomDir = Random.Range(0, 2) * 2 - 1;
 
         GetComponent<Rigidbody2D>().gravityScale = 0;
 
-        //Left
-        if (randDir == 1)
+        if(timeLeft <= 0)
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-1, 0) * speed;
+            GetComponent<Rigidbody2D>().velocity = new Vector2(randomDir, 0) * (speed / 2);
+            timeLeft += accelerationTime;
         }
 
-        //Right
-        if (randDir == 2)
-        {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(1, 0) * speed;
-        }
+        // Go right if the postion is at the left boundary.
+        if (transform.position.x <= -8)
+            GetComponent<Rigidbody2D>().velocity = new Vector2(1, 0) * (speed / 2);
+
+        // Go left if the postion is at the right boundary.
+        if (transform.position.x >= 8)
+            GetComponent<Rigidbody2D>().velocity = new Vector2(-1, 0) * (speed / 2);
 
     }
 }

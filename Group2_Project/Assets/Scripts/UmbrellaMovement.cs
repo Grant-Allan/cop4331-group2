@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class UmbrellaMovement : MonoBehaviour
 {
-    public float speed = 9;
+    public float speed = 6;
 
     // Start is called before the first frame update
     void Start()
@@ -25,11 +25,11 @@ public class UmbrellaMovement : MonoBehaviour
         if (Input.GetKeyDown("d"))
             GetComponent<Rigidbody2D>().velocity = new Vector2(1, 0) * speed;
 
-        // Go up if the postion is at the left boundary.
+        // Go right if the postion is at the left boundary.
         if (transform.position.x <= -8)
             GetComponent<Rigidbody2D>().velocity = new Vector2(1, 0) * speed;
 
-        // Go down if the postion is at the right boundary.
+        // Go left if the postion is at the right boundary.
         if (transform.position.x >= 8)
             GetComponent<Rigidbody2D>().velocity = new Vector2(-1, 0) * speed;
     }
