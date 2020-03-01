@@ -4,19 +4,20 @@ using UnityEngine;
 
 public class FingerMovement : MonoBehaviour
 {
+    public GameObject earFungus;
+    public Transform fungusPos;
     public float speed = 9;
     public bool triggered = false;
 
     void OnTriggerEnter2D()
     {
+        triggered = true;
+
         // If the object collides pull it back to the middle of the screen.
         GetComponent<Rigidbody2D>().velocity = new Vector2(1, 0) * (speed - 3);
 
-        triggered = true;
-
-        // Stop object in middle of screen
-        //if (transform.position.x <= 2 || transform.position.x >= -2)
-            //gameObject.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionX;
+        // Spawn the ear fungus at end of finger
+        Instantiate(earFungus, fungusPos.position, fungusPos.rotation);
     }
 
     void Update()
