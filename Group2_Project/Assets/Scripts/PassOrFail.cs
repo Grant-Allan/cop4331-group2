@@ -4,14 +4,14 @@ using UnityEngine;
 
 public class PassOrFail : MonoBehaviour
 {
-    // Start is called before the first frame update
 
-
+    //the Player has passed their minigame.
     public void pass()
     {
         PlayerStats.pass = true;
     }
 
+    //The Player has failed their minigame.
     public void fail()
     {
         PlayerStats.pass = false;
