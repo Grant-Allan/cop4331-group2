@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// This function is called when the quit button is pressed
 public class DoQuit : MonoBehaviour
 {
-    // This function is called when the quit button is pressed
     public void do_quit()
     {
         Debug.Log("has quit game");
