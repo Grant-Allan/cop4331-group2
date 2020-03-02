@@ -4,10 +4,11 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+//controls the timer at the bottom of DemoGame
 public class TimeBar : MonoBehaviour
 {
     //public Text timeText;
-
+    
     public float startingTime = 3.0f;
     public Slider Timer;
 
