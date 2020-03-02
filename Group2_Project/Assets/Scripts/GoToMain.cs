@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//This class takes the user to main menu from the death screen after a brief delay.
 public class GoToMain : MonoBehaviour
 {
     public float delay = 1;
@@ -12,6 +13,7 @@ public class GoToMain : MonoBehaviour
         StartCoroutine(LoadLevelAfterDelay(delay));
     }
 
+    //coroutine to wait a brief period and then Load the Main Menu scene
     IEnumerator LoadLevelAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
