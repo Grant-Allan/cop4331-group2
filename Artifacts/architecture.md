@@ -108,7 +108,7 @@ Currently, there are no official rules or guidelines we must follow regarding vi
 ### Game Over
 ![Game Over](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/death_screen.png)
 ### Minigame
-![Minigame](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/minigame.png)
+![Minigame](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/Minigame.png)
 * User Interface and User Stories Table
 
 | **ID** | **User Story**                                                                                              | **User Interface Components** |
