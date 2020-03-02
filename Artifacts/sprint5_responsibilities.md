@@ -6,6 +6,9 @@
 * Christian: 
   * 
 * Gary:
-  * 
+  * Working on code for game loop
+  * Working on code for lives update in game loop
+  * Working on code for score update in game loop
+  * Adding manual tests for requirements related to game loop / lives / score.
 * Russell:
   *
