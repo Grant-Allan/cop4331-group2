@@ -100,16 +100,15 @@ Currently, there are no official rules or guidelines we must follow regarding vi
 ## UI Screens
 
 ### Main Menu
-![Main Menu](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/main_menu.JPG)
-### Pause
-![Pause](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/pause.JPG)
+![Main Menu](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/menu.png)
 ### Leaderboard
-![Leaderboard](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/leaderboard.JPG)
-### Settings
-![Settings](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/settings.JPG)
+![Leaderboard](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/leadberboard.png)
+### Transition
+![Transition](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/transition_screen.png)
 ### Game Over
-![Game Over](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/game_over.JPG)
-
+![Game Over](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/death_screen.png)
+### Minigame
+![Minigame](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/minigame.png)
 * User Interface and User Stories Table
 
 | **ID** | **User Story**                                                                                              | **User Interface Components** |
