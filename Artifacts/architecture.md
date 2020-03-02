@@ -45,7 +45,7 @@ Our game is designed to be played by one person at a time. The Player will play 
 # Major Classes
 
 ## UML Diagram
-
+**UML Diagram Description:** We present our UML diagram below. Our primary content will be within the Minigame classes ([see Minigames](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/Minigames.md)). The Player class will be how the Gamer interacts with the Minigames and will also store properties relevant to the Gamer such as health and score. The Main menu class represents the hub of our project, and it is where all features of our project will be accessed. The transition class provides the essential control flow logic to our Minigame Loop. It will send the player to the next minigame if the health > 0, and else will send the player to the death screen.
 
 ![Class Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/class_diagram.png)
 
