@@ -44,6 +44,9 @@ Our game is designed to be played by one person at a time. The Player will play 
 
 # Major Classes
 
+## UML Diagram
+
+
 ![Class Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/class_diagram.png)
 
 * Player class: this handles the main game mechanics and information for the player. The player's name, lives, and score are tied to this class. This information is accessed by the Leaderboard and Transistion classes, as they need this information to display it on the screen for the user. It has a composition relationship to the classes for each individual minigame, because all the minigames run off of this starting class. 
