@@ -1,7 +1,7 @@
 # Microgames
 
 1. **Ear Plugger:** Try to stick the finger in the ear.
-2. **Cat in the Rain:** Try to keep the cat out of the rain.
+2. **Cat in the Rain:** Try to keep the cat under the umbrella and out of the rain.
 3. **Eating Corn:** Try to eat the corn.
 4. Jumping Cars
 5. Luna-pants-lander
