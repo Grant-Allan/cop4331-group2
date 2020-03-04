@@ -44,7 +44,10 @@ Our game is designed to be played by one person at a time. The Player will play 
 
 # Major Classes
 
-![Class Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/class_diagram.png)
+## UML Diagram
+**UML Diagram Description:** We present our UML diagram below. Our primary content will be within the Minigame classes ([see Minigames](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/Minigames.md)). The Player class will be how the Gamer interacts with the Minigames and will also store properties relevant to the Gamer such as health and score. The Main menu class represents the hub of our project, and it is where all features of our project will be accessed. The transition class provides the essential control flow logic to our Minigame Loop. It will send the player to the next minigame if the health > 0, and else will send the player to the death screen, which will in turn send the Player to the main menu. In terms of interactions between classes, the most important interactions are between the Player, Minigame, and Transition classes. The Player class stores important information like speed and score that is required to display the transition screen that the Transition class is responsible. Additionally, the Player class has the difficulty property which is used by the Minigame classes. Finally, the Minigame class returns information about whether the Player passed or failed, which results in modifications to the health and score properties of the Player class.
+
+![UML Diagram](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/class_diagram.png)
 
 * Player class: this handles the main game mechanics and information for the player. The player's name, lives, and score are tied to this class. This information is accessed by the Leaderboard and Transistion classes, as they need this information to display it on the screen for the user. It has a composition relationship to the classes for each individual minigame, because all the minigames run off of this starting class. 
 * Main Menu (UI) class: This class handles the main display for the game, including all of its buttons and functionalities. It has a composition relationship to the Leadership and Transition classes because they don't exist without the Main Menu class first.
@@ -97,16 +100,15 @@ Currently, there are no official rules or guidelines we must follow regarding vi
 ## UI Screens
 
 ### Main Menu
-![Main Menu](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/main_menu.JPG)
-### Pause
-![Pause](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/pause.JPG)
+![Main Menu](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/menu.png)
 ### Leaderboard
-![Leaderboard](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/leaderboard.JPG)
-### Settings
-![Settings](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/settings.JPG)
+![Leaderboard](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/leadberboard.png)
+### Transition
+![Transition](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/transition_screen.png)
 ### Game Over
-![Game Over](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/game_over.JPG)
-
+![Game Over](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/death_screen.png)
+### Minigame
+![Minigame](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/images/Minigame.png)
 * User Interface and User Stories Table
 
 | **ID** | **User Story**                                                                                              | **User Interface Components** |

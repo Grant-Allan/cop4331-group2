@@ -4,14 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
+//controls the timer at the bottom of DemoGame
 public class TimeBar : MonoBehaviour
 {
-    //public Text timeText;
-
+    //duration of DemoGame minigame
     public float startingTime = 3.0f;
     public Slider Timer;
 
-    // Use this for initialization
     void Start()
     {
         Timer = GetComponent<Slider>();
@@ -28,16 +27,19 @@ public class TimeBar : MonoBehaviour
         {
             startingTime = 0;
 
+            // If the player does not pass the game
             if (PlayerStats.pass == false)
             {
+                //player health decreases by 1
                 PlayerStats.health -= 1;
             }
-            else
+            else // The player passes the game
             {
+                // Player score increases by 1
                 PlayerStats.score += 1;
             }
 
-
+            //If the Player died during this minigame
             if (PlayerStats.health == 0)
             {
                 SceneManager.LoadScene("DeathScene");

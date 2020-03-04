@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class InitPlayerStats : MonoBehaviour
 {
-    // Start is called before the first frame update
     void Start()
     {
+        //initial player health is three
         PlayerStats.health = 3;
+        //initial player score is 0
         PlayerStats.score = 0;
+        //player is initialized to pass the minigame
         PlayerStats.pass = true;
     }
 
