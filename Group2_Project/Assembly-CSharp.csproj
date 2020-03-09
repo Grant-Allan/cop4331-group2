@@ -55,6 +55,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\CarMovement.cs" />
      <Compile Include="Assets\Scripts\CatMovement.cs" />
      <Compile Include="Assets\Scripts\DoQuit.cs" />
      <Compile Include="Assets\Scripts\FingerMovement.cs" />
