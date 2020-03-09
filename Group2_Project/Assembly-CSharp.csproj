@@ -59,12 +59,14 @@
      <Compile Include="Assets\Scripts\DoQuit.cs" />
      <Compile Include="Assets\Scripts\FingerMovement.cs" />
      <Compile Include="Assets\Scripts\GoToMain.cs" />
+     <Compile Include="Assets\Scripts\health.cs" />
      <Compile Include="Assets\Scripts\HealthUpdate.cs" />
      <Compile Include="Assets\Scripts\InitPass.cs" />
      <Compile Include="Assets\Scripts\InitPlayerStats.cs" />
      <Compile Include="Assets\Scripts\PassOrFail.cs" />
      <Compile Include="Assets\Scripts\PlayerStats.cs" />
      <Compile Include="Assets\Scripts\SceneChanger.cs" />
+     <Compile Include="Assets\Scripts\score.cs" />
      <Compile Include="Assets\Scripts\ScoreUpdate.cs" />
      <Compile Include="Assets\Scripts\StartNextGame.cs" />
      <Compile Include="Assets\Scripts\TimeBar.cs" />
