@@ -21,3 +21,7 @@
 | 016 | 011 | The Player's score will increase after each successfully completed minigame.                  | 1 | Necessary | Satisfied |
 | 017 | 011 | The transition screen will display the updated score of the Player.                           | 3 | Desirable | Satisfied |
 | 018 | 006 | The main menu shall have a diagram in the lower left corner of the keys used in the game                           | 4 | Desirable | Satisfied |
+| 019  | 013  | The player shall be returned to the main menu when they run out of lives | 2   | Necessary | Satisfied |
+| 020  | 015  | The minigame shall have a timebar at the bottom of the screen            | 3   | Necessary | Satisfied |
+| 021  | 015  | The timebar shall decrease at a constant pace                            | 1   | Necessary | Satisfied |
+| 022  | 015  | The timebar shall end the minigame when the time is finished             | 2   | Necessary | Satisfied |
