@@ -20,3 +20,4 @@
 | 015 | 010 | The Player will be taken to the main menu from the death screen after a brief period          | 3 | Necessary | Satisfied |
 | 016 | 011 | The Player's score will increase after each successfully completed minigame.                  | 1 | Necessary | Satisfied |
 | 017 | 011 | The transition screen will display the updated score of the Player.                           | 3 | Desirable | Satisfied |
+| 018 | 006 | The main menu shall have a diagram in the lower left corner of the keys used in the game                           | 4 | Desirable | Satisfied |
