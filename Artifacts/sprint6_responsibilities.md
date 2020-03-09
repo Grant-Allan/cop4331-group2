@@ -9,6 +9,7 @@
   * Working on art for assets in Car Jumper
   * Working on scripts associated with Car Jumper
 * Gary (garytho):
-  * 
+  * Working on Whack it! minigame
+  * Working on Eat the hotdog! minigame
 * Russell:
   *
