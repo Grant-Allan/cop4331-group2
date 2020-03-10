@@ -24,6 +24,7 @@ public class whack : MonoBehaviour
             {
                 PlayerStats.pass = true;
                 other.MediumWhack();
+
             }
             else
             {
