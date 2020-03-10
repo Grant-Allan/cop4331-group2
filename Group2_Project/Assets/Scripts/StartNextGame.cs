@@ -6,13 +6,11 @@ using UnityEngine.SceneManagement;
 public class StartNextGame : MonoBehaviour
 {
     public float delay = 2.0f;
-    string[] minigames = {"DemoGameScene"};
+    string[] minigames = {"DemoGameScene", "WhackItMinigame"};
 
     //get random minigame
     System.Random rnd = new System.Random();
-    //public int game_idx = rnd.Next(0, minigame_num);
 
-    //public string nextGame = minigames[game_idx];
     
     public string nextGame;
 
@@ -20,6 +18,15 @@ public class StartNextGame : MonoBehaviour
 
     void Start()
     {
+        //reset key PlayerStats properties
+        PlayerStats.gameDone = false;
+
+
+        //reset key minigame properties
+        WhackData.moving = true;
+
+
+        //pick next game
         game_idx = rnd.Next(0, minigames.Length);
         nextGame = minigames[game_idx];
         StartCoroutine(LoadLevelAfterDelay(delay));

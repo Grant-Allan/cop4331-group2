@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cat in Rain.unity
     guid: 22d774d60f0c7734aafa62192bc138d2
+  - enabled: 1
+    path: Assets/Scenes/WhackItMinigame.unity
+    guid: 1d726ee13e8f37c428d9a90cca0dcc29
   m_configObjects: {}

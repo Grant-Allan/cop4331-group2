@@ -8,7 +8,7 @@ using UnityEngine.SceneManagement;
 public class TimeBar : MonoBehaviour
 {
     //duration of DemoGame minigame
-    public float startingTime = 3.0f;
+    private float startingTime = 3.0f;
     public Slider Timer;
 
     void Start()
@@ -26,28 +26,36 @@ public class TimeBar : MonoBehaviour
         if (startingTime <= 0)
         {
             startingTime = 0;
+            GameResults();
+        }
 
-            // If the player does not pass the game
-            if (PlayerStats.pass == false)
-            {
-                //player health decreases by 1
-                PlayerStats.health -= 1;
-            }
-            else // The player passes the game
-            {
-                // Player score increases by 1
-                PlayerStats.score += 1;
-            }
+    }
 
-            //If the Player died during this minigame
-            if (PlayerStats.health == 0)
-            {
-                SceneManager.LoadScene("DeathScene");
-            }
-            else
-            {
-                SceneManager.LoadScene("TransitionScene");
-            }
+    void GameResults()
+    {
+
+        // If the player does not pass the game
+        if (PlayerStats.pass == false)
+        {
+            //player health decreases by 1
+            PlayerStats.health -= 1;
+        }
+
+        else // The player passes the game
+        {
+            // Player score increases by 1
+            PlayerStats.score += 1;
+        }
+
+        //If the Player died during this minigame
+        if (PlayerStats.health == 0)
+        {
+            SceneManager.LoadScene("DeathScene");
+        }
+
+        else
+        {
+            SceneManager.LoadScene("TransitionScene");
         }
     }
 }
