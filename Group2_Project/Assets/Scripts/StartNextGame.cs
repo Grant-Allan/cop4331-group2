@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class StartNextGame : MonoBehaviour
 {
     public float delay = 2.0f;
-    string[] minigames = {"DemoGameScene", "WhackItMinigame"};
+    string[] minigames = { "WhackItMinigame", "Eat"};
 
     //get random minigame
     System.Random rnd = new System.Random();

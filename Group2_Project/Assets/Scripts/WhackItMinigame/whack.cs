@@ -7,6 +7,7 @@ public class whack : MonoBehaviour
     private bool hasWhacked = false;
     public TriggerWhack other;
 
+
     void Update()
     {
         if (WhackData.moving == false & hasWhacked == false)
@@ -32,6 +33,10 @@ public class whack : MonoBehaviour
                 other.Whacked();
             }
             
+        }
+        else if(WhackData.moving)
+        {
+            PlayerStats.pass = false;
         }
 
     }
