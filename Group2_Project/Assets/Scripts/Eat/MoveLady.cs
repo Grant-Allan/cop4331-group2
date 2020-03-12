@@ -11,6 +11,12 @@ public class MoveLady : MonoBehaviour
     private Vector2 middle = new Vector2(0.78f, 2.64f);
 
 
+    void Start()
+    {
+        PlayerStats.gameTimeStarted = true;
+    }
+
+
     // Update is called once per frame
     void Update()
     {

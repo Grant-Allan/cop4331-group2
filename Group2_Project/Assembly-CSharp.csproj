@@ -57,6 +57,10 @@
   <ItemGroup>
      <Compile Include="Assets\AnimationEnded.cs" />
      <Compile Include="Assets\CarMovement.cs" />
+     <Compile Include="Assets\Scripts\Catch\CatchData.cs" />
+     <Compile Include="Assets\Scripts\Catch\ChefControls.cs" />
+     <Compile Include="Assets\Scripts\Catch\pancake_up.cs" />
+     <Compile Include="Assets\Scripts\Catch\PancakeDown.cs" />
      <Compile Include="Assets\Scripts\CatMovement.cs" />
      <Compile Include="Assets\Scripts\DoQuit.cs" />
      <Compile Include="Assets\Scripts\Eat\MoveLady.cs" />

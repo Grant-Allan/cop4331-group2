@@ -23,7 +23,7 @@ public class TimeBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerStats.gameDone == false)
+        if (PlayerStats.gameDone == false & PlayerStats.gameTimeStarted)
         {
             startingTime -= Time.deltaTime;
             Timer.value = startingTime;

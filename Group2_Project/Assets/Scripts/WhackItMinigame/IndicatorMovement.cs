@@ -9,6 +9,12 @@ public class IndicatorMovement : MonoBehaviour
     private Vector3 pos2 = new Vector3(3, -3, 0);
     public float speed = 1.0f;
 
+    void Start()
+    {
+        PlayerStats.gameTimeStarted = true;
+    }
+
+
     void Update()
     {
         if (WhackData.moving == true)
