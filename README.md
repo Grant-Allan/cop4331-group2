@@ -7,17 +7,19 @@ For completeness, we list some of our planned minigames below.
 
 ## Minigames
 
-1. Ear Plugger
+1. Strength Tester
 2. Cat in the Rain
-3. Eating Corn
-4. Jumping Cars
-5. Luna-pants-lander
-6. Jumping rope
-7. Card Matching
-8. Wall Jumper
-9. Coughing Dab
-10. Golphing (Power Bar)
-11. FPS shooting planes or ships
+3. Flipping Pancakes
+4. Hungry for Hotdog
+5. Ear Plugger
+6. Jumping Cars
+7. Luna-pants-lander
+8. Jumping rope
+9. Card Matching
+10. Wall Jumper
+11. Coughing Dab
+12. Golphing (Power Bar)
+13. FPS shooting planes or ships
 
 [Minigame info](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/Minigames.md)
 
