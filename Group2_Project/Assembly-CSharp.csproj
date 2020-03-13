@@ -61,7 +61,9 @@
      <Compile Include="Assets\Scripts\Catch\ChefControls.cs" />
      <Compile Include="Assets\Scripts\Catch\pancake_up.cs" />
      <Compile Include="Assets\Scripts\Catch\PancakeDown.cs" />
-     <Compile Include="Assets\Scripts\CatMovement.cs" />
+     <Compile Include="Assets\Scripts\CatInRain\CatInRainData.cs" />
+     <Compile Include="Assets\Scripts\CatInRain\CatMovement.cs" />
+     <Compile Include="Assets\Scripts\CatInRain\UmbrellaMovement.cs" />
      <Compile Include="Assets\Scripts\DoQuit.cs" />
      <Compile Include="Assets\Scripts\Eat\MoveLady.cs" />
      <Compile Include="Assets\Scripts\FingerMovement.cs" />
@@ -77,7 +79,6 @@
      <Compile Include="Assets\Scripts\ScoreUpdate.cs" />
      <Compile Include="Assets\Scripts\StartNextGame.cs" />
      <Compile Include="Assets\Scripts\TimeBar.cs" />
-     <Compile Include="Assets\Scripts\UmbrellaMovement.cs" />
      <Compile Include="Assets\Scripts\WhackItMinigame\IndicatorMovement.cs" />
      <Compile Include="Assets\Scripts\WhackItMinigame\TriggerWhack.cs" />
      <Compile Include="Assets\Scripts\WhackItMinigame\whack.cs" />
