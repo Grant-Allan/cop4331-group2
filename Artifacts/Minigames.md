@@ -1,13 +1,15 @@
 # Microgames
 
-1. **Ear Plugger:** Try to stick the finger in the ear.
-2. **Cat in the Rain:** Try to keep the cat under the umbrella and out of the rain.
-3. **Eating Corn:** Try to eat the corn.
-4. **Jumping Cars:** Try to jump over the car.
-5. Luna-pants-lander
-6. Jumping rope
-7. Card Matching
-8. Wall Jumper
-9. Coughing Dab
-10. Golphing (Power Bar)
-11. FPS shooting planes or ships
+1. **Strength Tester:** Whack the platform with the mallet (power bar).
+2. **Cat in the Rain:** Keep the cat under the umbrella.
+3. **Flipping Pancakes:** Help the chef catch his pancake.
+4. **Hungry for Hotdog:** Eat the hotdog.
+5. **Ear Plugger:** Try to stick the finger in the ear.
+6. **Jumping Cars:** Try to jump over the car.
+7. Luna-pants-lander
+8. Jumping rope
+9. Card Matching
+10. Wall Jumper
+11. Coughing Dab
+12. Golphing (Power Bar)
+13. FPS shooting planes or ships
