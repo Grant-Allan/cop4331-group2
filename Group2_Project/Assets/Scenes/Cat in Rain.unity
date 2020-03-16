@@ -288,6 +288,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 9
+  accelerationTime: 0.5
 --- !u!50 &722266090
 Rigidbody2D:
   serializedVersion: 4
@@ -854,12 +855,11 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1770793139}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e9077b6d4ddcaa84daffc5fbbf7eaf40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingTime: 3
   Timer: {fileID: 0}
 --- !u!114 &1770793142
 MonoBehaviour:
