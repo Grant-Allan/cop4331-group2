@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/WhackItMinigame.unity
+- path: Assets/Scenes/CarJump.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
