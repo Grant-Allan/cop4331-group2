@@ -32,5 +32,15 @@ public class PersonJump : MonoBehaviour
         {
                 GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezePositionY;
         }
+
+      
     }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        //Debug.Log("hit");
+        GetComponent<Rigidbody2D>().angularVelocity = 180;
+        GetComponent<Rigidbody2D>().velocity = new Vector2(1, 1) * (speed);
+    }
+
 }
