@@ -121,3 +121,18 @@ For completeness, we list some of our planned minigames below.
 * [Automated Tests](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts/Editor/Tests)
 * [Manual Tests](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/manual_tests.md)
 * [Product Demonstration](https://www.youtube.com/watch?v=JTOvPjJK4rs)
+
+---
+
+# Sprint 7
+
+* [Responsibilities](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint7_responsibilities.md)
+* [Trello Board](https://trello.com/b/k14W6q1c/cop4331-group2)
+* [Requirements](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint7_requirements.md)
+* [Burndown Chart]()
+* [Velocity Chart](https://docs.google.com/spreadsheets/d/16ysRusBVkkAfoPKgARBptCvqvAWeJbdyo0cIgsfH7g4/edit?usp=sharing)
+* [Product Design Documents](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/architecture.md)
+* [Source Code](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts)
+* [Automated Tests](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts/Editor/Tests)
+* [Manual Tests](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/manual_tests.md)
+* [Product Demonstration]()
