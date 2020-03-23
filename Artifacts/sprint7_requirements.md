@@ -31,3 +31,14 @@
 | 026  | MG4_02 | The player shall win the game when the car passes without hitting the character | 1   | Necessary | Satisfied |
 | 027  | MG4_03 | The character shall spin off screen when the car collides with it               | 2   | Desirable | Satisfied |
 | 028  | MG4_03 | The player shall lose a heart when the car collides with the character          | 1   | Necessary | Satisfied |
+| 029 | MG3  | When the player presses space, the animated face eats part of the hotdog                                                             | 5 | Necessary | Satisfied |
+| 030 | MG3  | If the player presses space enough so that the animated face eats the entire part of the hotdog, then the player passes the minigame | 5 | Necessary | Satisfied |
+| 031 | MG3  | The animated face moves from left to right                                                                                           | 5 | Necessary | Satisfied |
+| 032 | MG10 | The power indicator will move from left to right on the power bar.                                                                   | 3 | Necessary | Satisfied |
+| 033 | MG10 | When the player presses space, the the power indicator stops                                                                         | 3 | Necessary | Satisfied |
+| 034 | MG10 | The strength tester has a stronger animation when the power indicator is stopped in the strongest part of the power bar.             | 5 | Necessary | Satisfied |
+| 035 | MG10 | When the power indicator stops the hammer moves and hits the strength tester                                                         | 5 | Necessary | Satisfied |
+| 036 | MG10 | The player passes the minigame if they hit the power bar in the strongest area.                                                      | 3 | Necessary | Satisfied |
+| 037 | MG12 | The player controls the chef's movements                                                                                             | 5 | Necessary | Satisfied |
+| 038 | MG12 | The pancake flies into the air, and then after a brief delay, falls from a random location                                           | 5 | Necessary | Satisfied |
+| 039 | MG12 | If the player uses the chef to catch the pancake then they pass                                                                      | 5 | Necessary | Satisfied |
