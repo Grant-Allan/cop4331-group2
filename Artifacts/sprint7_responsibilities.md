@@ -2,6 +2,7 @@
   * Finishing Cat in the Rain minigame scripts
   * Making background for main menu and minigames
   * Working on scripts and sprites for Car Jumper
+  * Writing manual tests for Car Jumper
 * Christian (yell0wjell0): 
   * Created scripts for menu scene UI
   * Created scripts for transition scene UI
