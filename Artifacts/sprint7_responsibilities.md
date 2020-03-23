@@ -9,6 +9,11 @@
   * Edited appearence of transition scene UI
   * Edited appearancefor menu scene UI
 * Gary (garytho):
-  *
+  * Created and finished the Catch! minigame
+  * Created and finished the Eat it! minigame
+  * Helped finish the Cat in Rain minigame
+  * Created and finished the Whack it! minigame
+  * Began working on leaderboard functionality
+  * Writing manual tests for all four minigames
 * Russell:
   *
