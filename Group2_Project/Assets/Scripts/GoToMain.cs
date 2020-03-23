@@ -7,16 +7,24 @@ using UnityEngine.SceneManagement;
 public class GoToMain : MonoBehaviour
 {
     public float delay = 1;
-    public string nextGame = "0 Main Menu";
     void Start()
     {
-        StartCoroutine(LoadLevelAfterDelay(delay));
+        if (PlayerStats.ScoreNum < 5 || PlayerStats.highscores[4] < PlayerStats.score)
+        {
+            StartCoroutine(LoadLevelAfterDelay(delay, "NewHighScore"));
+        }
+        else
+        {
+            StartCoroutine(LoadLevelAfterDelay(delay, "0 Main Menu"));
+        }
+
+
     }
 
     //coroutine to wait a brief period and then Load the Main Menu scene
-    IEnumerator LoadLevelAfterDelay(float delay)
+    IEnumerator LoadLevelAfterDelay(float delay, string level)
     {
         yield return new WaitForSeconds(delay);
-        SceneManager.LoadScene(nextGame);
+        SceneManager.LoadScene(level);
     }
 }
