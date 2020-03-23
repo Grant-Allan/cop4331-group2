@@ -25,3 +25,9 @@
 | 020  | 015  | The minigame shall have a timebar at the bottom of the screen            | 3   | Necessary | Satisfied |
 | 021  | 015  | The timebar shall decrease at a constant pace                            | 1   | Necessary | Satisfied |
 | 022  | 015  | The timebar shall end the minigame when the time is finished             | 2   | Necessary | Satisfied |
+| 023  | MG4_01 | The car shall move to the left at a constant speed when the minigame begins     | 1   | Necessary | Satisfied |
+| 024  | MG4_02 | The character shall accelerate upward when the spacebar is pressed              | 1   | Necessary | Satisfied |
+| 025  | MG4_02 | The character shall fall back to its starting position after it was jumped up   | 1   | Necessary | Satisfied |
+| 026  | MG4_02 | The player shall win the game when the car passes without hitting the character | 1   | Necessary | Satisfied |
+| 027  | MG4_03 | The character shall spin off screen when the car collides with it               | 2   | Desirable | Satisfied |
+| 028  | MG4_03 | The player shall lose a heart when the car collides with the character          | 1   | Necessary | Satisfied |
