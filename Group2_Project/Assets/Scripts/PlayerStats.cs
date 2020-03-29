@@ -8,7 +8,9 @@ public static class PlayerStats
     public static bool pass;
     public static bool gameDone;
     public static bool gameTimeStarted;
-    public static int[] highscores = new int[3];
-    public static string[] users = new string[3];
+    public static int[] highscores = new int[] {-1, -1, -1};
+
+    public static string[] users = new string[] {"", "", ""};
+
     public static int ScoreNum = 0;
 }

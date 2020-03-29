@@ -3,3 +3,18 @@
 *.csproj
 Group2_Project/Library/assetDatabase3
 Group2_Project/Library/PackageCache/com.unity.collab-proxy@1.2.16/.npmignore
+*.asset
+*.dll
+*.pdb
+Group2_Project/Library/assetDatabase3
+*.asset
+*.dll
+Group2_Project/Library/ScriptAssemblies/Assembly-CSharp.pdb
+Group2_Project/Library/ScriptAssemblies/Assembly-CSharp.dll
+Group2_Project/Library/SceneVisibilityState.asset
+Group2_Project/Library/assetDatabase3
+Group2_Project/Group2 Project_Data/sharedassets9.assets.resS
+Group2_Project/Group2 Project_Data/level5
+Group2_Project/Group2 Project_Data/level4
+Group2_Project/Group2 Project_Data/level3
+Group2_Project/Group2 Project_Data/level2

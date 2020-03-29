@@ -9,7 +9,7 @@ public class GoToMain : MonoBehaviour
     public float delay = 1;
     void Start()
     {
-        if (PlayerStats.ScoreNum < 5 || PlayerStats.highscores[4] < PlayerStats.score)
+        if (PlayerStats.ScoreNum < 3 || PlayerStats.highscores[2] < PlayerStats.score)
         {
             StartCoroutine(LoadLevelAfterDelay(delay, "NewHighScore"));
         }
