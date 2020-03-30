@@ -7,6 +7,8 @@
   * Editing menu scripts
   * Creating new art for menu
 * Gary (garytho):
-  * 
+  * Created the New High Score Screen
+  * Added the enter username functionality
+  * Added scripts so that the leaderboard updates on its own
 * Russell:
   *
