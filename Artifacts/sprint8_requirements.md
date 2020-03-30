@@ -47,3 +47,8 @@
 | 042  | 19  | The player shall hear music begin when they open the game                          | 1   | Important | Satisfied |
 | 043  | 19  | The main menu music shall continue when the player heads to the leaderboard        | 2   | Important | Satisfied |
 | 044  | 19  | The music shall start again when the player dies and returns to the main menu      | 2   | Important | Satisfied |
+| 045 | 007 | When the player achieves a highscore, after the death screen they will be prompted to enter their initials       | 5 | Necessary | Satisfied |
+| 046 | 007 | The entered initials should appear on the leaderboard screen.                                                    | 5 | Necessary | Satisfied |
+| 047 | 007 | The player should enter the leaderboard screen after achieving a highscore                                       | 5 | Necessary | Satisfied |
+| 048 | 020 | When the player beats a previous high score, the players score should appear above that score on the leaderboard | 5 | Necessary | Satisfied |
+| 049 | 020 | The leaderboard should store the top three high scores.                                                          | 5 | Necessary | Satisfied |
