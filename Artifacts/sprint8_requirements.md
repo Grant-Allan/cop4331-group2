@@ -42,3 +42,8 @@
 | 037 | MG12 | The player controls the chef's movements                                                                                             | 5 | Necessary | Satisfied |
 | 038 | MG12 | The pancake flies into the air, and then after a brief delay, falls from a random location                                           | 5 | Necessary | Satisfied |
 | 039 | MG12 | If the player uses the chef to catch the pancake then they pass                                                                      | 5 | Necessary | Satisfied |
+| 040  | 16  | The player shall hear music playing when they hit the play button on the main menu | 2   | Important | Satisfied |
+| 041  | 16  | The music be continuous thoughout the minigames until the player loses             | 3   | Important | Satisfied |
+| 042  | 19  | The player shall hear music begin when they open the game                          | 1   | Important | Satisfied |
+| 043  | 19  | The main menu music shall continue when the player heads to the leaderboard        | 2   | Important | Satisfied |
+| 044  | 19  | The music shall start again when the player dies and returns to the main menu      | 2   | Important | Satisfied |
