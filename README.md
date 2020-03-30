@@ -144,7 +144,7 @@ For completeness, we list some of our planned minigames below.
 * [Responsibilities](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint8_responsibilities.md)
 * [Trello Board](https://trello.com/b/k14W6q1c/cop4331-group2)
 * [Requirements](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/sprint8_requirements.md)
-* [Burndown Chart]()
+* [Burndown Chart](https://docs.google.com/spreadsheets/d/1GPfOLaDWErHPPgMK8R8yo8gLeCCrQK4fG5T2IOB49Lg/edit?usp=sharing)
 * [Velocity Chart](https://docs.google.com/spreadsheets/d/16ysRusBVkkAfoPKgARBptCvqvAWeJbdyo0cIgsfH7g4/edit?usp=sharing)
 * [Product Design Documents](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/architecture.md)
 * [Source Code](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts)
