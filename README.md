@@ -150,5 +150,5 @@ For completeness, we list some of our planned minigames below.
 * [Source Code](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts)
 * [Automated Tests](https://github.com/rashawnpeters/cop4331-group2/tree/master/Group2_Project/Assets/Scripts/Editor/Tests)
 * [Manual Tests](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/manual_tests.md)
-* [Product Demonstration]()
+* [Product Demonstration](https://www.youtube.com/watch?v=5YiDageX-ME)
 
