@@ -50,4 +50,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Settings.unity
     guid: c38e5a7be4943794d990f75c41c3e307
+  - enabled: 1
+    path: Assets/Scenes/BalloonPop.unity
+    guid: 9288df962f0e07545894e102ce83dc69
   m_configObjects: {}
