@@ -19,5 +19,8 @@ public static class PlayerStats
 
     public static float time_factor = 1.0f;
 
+
+    public static int last_minigame = -1;
+
     public static int displayed_speed;
 }

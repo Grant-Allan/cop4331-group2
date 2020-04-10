@@ -5,8 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class StartNextGame : MonoBehaviour
 {
+
+
     public float delay = 2.0f;
-    string[] minigames = { "WhackItMinigame", "Eat", "catch", "CatInRain", "CarJump", "BalloonPop"};
+    string[] minigames = { "WhackItMinigame", "Eat", "catch", "CatInRain", "CarJump", "BalloonPop", "WheelOfFortune"};
 
     //get random minigame
     System.Random rnd = new System.Random();
@@ -27,7 +29,16 @@ public class StartNextGame : MonoBehaviour
 
 
         //pick next game
-        game_idx = rnd.Next(0, minigames.Length);
+	game_idx = game_idx = rnd.Next(0, minigames.Length);
+
+	while (game_idx == PlayerStats.last_minigame)
+	{
+		game_idx = rnd.Next(0, minigames.Length);
+	}
+
+	PlayerStats.last_minigame = game_idx;
+
+        
         nextGame = minigames[game_idx];
         StartCoroutine(LoadLevelAfterDelay(delay));
     }
