@@ -18,4 +18,6 @@ public static class PlayerStats
     public static int ScoreNum = 0;
 
     public static float time_factor = 1.0f;
+
+    public static int displayed_speed;
 }

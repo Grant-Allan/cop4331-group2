@@ -15,7 +15,7 @@ Our product will have a significant randomized element, which will add replay va
 
 
 ## What are the key features of this product?
-* Short, themed minigames set to an accelerating tempo
-* Boss battles
+* Short, themed minigames that increase in speed as the game progresses
+* Upbeat 8bit music that speeds up as the game progresses
 * Leaderboard
 * Difficulty settings
