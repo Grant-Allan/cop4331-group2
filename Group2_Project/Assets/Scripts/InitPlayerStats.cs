@@ -12,6 +12,7 @@ public class InitPlayerStats : MonoBehaviour
         PlayerStats.score = 0;
         //player is initialized to pass the minigame
         PlayerStats.pass = true;
+	PlayerStats.time_factor = 1.0f;
     }
 
 }

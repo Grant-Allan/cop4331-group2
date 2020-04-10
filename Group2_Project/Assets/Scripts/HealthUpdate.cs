@@ -6,8 +6,6 @@ public class HealthUpdate : MonoBehaviour
 {
 
 
-    public int displayed_speed;
-
     public int health, score;
     public Sprite heart, speed, up;
     private SpriteRenderer currRenderer;
@@ -25,10 +23,10 @@ public class HealthUpdate : MonoBehaviour
 
 	if (score == 0)
 	{
-		displayed_speed = 0;
+		PlayerStats.displayed_speed = 0;
 	}
 
-	if (score % 5 == 0 & score != 0 & displayed_speed == 0)
+	if (score % 5 == 0 & score != 0 & PlayerStats.displayed_speed == 0)
 	{
 
 
@@ -41,14 +39,12 @@ public class HealthUpdate : MonoBehaviour
 		PlayerStats.time_factor = PlayerStats.time_factor + 0.2f;
 
 
-		displayed_speed = 1;
+		PlayerStats.displayed_speed = 1;
 	}
 	else
 	{
-		displayed_speed = 0;
+		PlayerStats.displayed_speed = 0;
 	}
-
-	displayed_speed = 0;
 
 
 	Time.timeScale = PlayerStats.time_factor;
