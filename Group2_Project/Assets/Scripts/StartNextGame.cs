@@ -32,9 +32,13 @@ public class StartNextGame : MonoBehaviour
         StartCoroutine(LoadLevelAfterDelay(delay));
     }
 
+
     IEnumerator LoadLevelAfterDelay(float delay)
     {
         yield return new WaitForSeconds(delay);
         SceneManager.LoadScene(nextGame);
     }
+
+
+
 }

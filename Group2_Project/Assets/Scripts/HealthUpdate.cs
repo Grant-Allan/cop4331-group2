@@ -5,15 +5,53 @@ using UnityEngine;
 public class HealthUpdate : MonoBehaviour
 {
 
-    public int health;
-    public Sprite heart;
+
+    public int displayed_speed;
+
+    public int health, score;
+    public Sprite heart, speed, up;
     private SpriteRenderer currRenderer;
 
-    public GameObject heart1, heart2, heart3;
+    public GameObject heart1, heart2, heart3, speed_sprite, up_sprite;
 
     void Start()
     {
+
+
         health = PlayerStats.health;
+
+	score = PlayerStats.score;
+
+
+	if (score == 0)
+	{
+		displayed_speed = 0;
+	}
+
+	if (score % 5 == 0 & score != 0 & displayed_speed == 0)
+	{
+
+
+		currRenderer = speed_sprite.GetComponent<SpriteRenderer>();
+		currRenderer.sprite = speed;
+
+		currRenderer = up_sprite.GetComponent<SpriteRenderer>();
+		currRenderer.sprite = up;
+
+		PlayerStats.time_factor = PlayerStats.time_factor + 0.2f;
+
+
+		displayed_speed = 1;
+	}
+	else
+	{
+		displayed_speed = 0;
+	}
+
+	displayed_speed = 0;
+
+
+	Time.timeScale = PlayerStats.time_factor;
 
         
         if (health >= 1) // then render leftmost heart

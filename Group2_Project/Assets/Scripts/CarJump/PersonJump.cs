@@ -24,7 +24,7 @@ public class PersonJump : MonoBehaviour
         if (Input.GetKeyDown("space"))
         {
             GetComponent<Rigidbody2D>().gravityScale = 1;
-            GetComponent<Rigidbody2D>().velocity = new Vector2(0, 1) * (speed);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(0, 1.2f) * (speed);
         }
 
         // Freeze sprite at its starting position

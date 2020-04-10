@@ -27,6 +27,6 @@ public class SceneChanger : MonoBehaviour
     //Main Menu -> Settings Button
     public void Settings()
     {
-        
+        SceneManager.LoadScene("Settings");
     }
 }

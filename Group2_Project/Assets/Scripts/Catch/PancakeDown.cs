@@ -34,7 +34,7 @@ public class PancakeDown : MonoBehaviour
         time_since_start += Time.deltaTime;
 
 
-        if ( Math.Abs(fall_loc - CatchData.chef_pos) < 0.5 & CatchData.pancake_pos >= -1.11 & Math.Abs(-1.11f - CatchData.pancake_pos) < 0.1  )
+        if ( Math.Abs(fall_loc - CatchData.chef_pos) < 1.0 & CatchData.pancake_pos >= -1.11 & Math.Abs(-1.11f - CatchData.pancake_pos) < 0.1  )
         {
             hit = true;
             PlayerStats.pass = true;

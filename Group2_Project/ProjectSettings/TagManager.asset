@@ -6,6 +6,7 @@ TagManager:
   tags:
   - gameMusic
   - menuMusic
+  - ShowOnPause
   layers:
   - Default
   - TransparentFX

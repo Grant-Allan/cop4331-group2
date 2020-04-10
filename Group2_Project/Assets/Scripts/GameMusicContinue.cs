@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class GameMusicContinue : MonoBehaviour
 {
+
+
+	public AudioSource audioSource1;
+
     void Awake ()
     {
         GameObject[] song = GameObject.FindGameObjectsWithTag("gameMusic");
@@ -14,5 +18,27 @@ public class GameMusicContinue : MonoBehaviour
         Destroy(menuSong);
 
         DontDestroyOnLoad(this.gameObject);
+
+
     }
+
+
+
+
+
+    void Update()
+    {
+
+	audioSource1.pitch = PlayerStats.time_factor;
+
+        if (PlayerStats.music_on) {
+            audioSource1.mute = false;
+	}
+	else
+	{
+	    audioSource1.mute = true;
+	}
+    }
+
+
 }

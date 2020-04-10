@@ -9,5 +9,7 @@ public class InitPass : MonoBehaviour
     {
         //At the beginning of a minigame, reset PlayerStats.pass
         PlayerStats.pass = true;
+
+	Time.timeScale = PlayerStats.time_factor;
     }
 }
