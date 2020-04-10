@@ -11,15 +11,11 @@ For completeness, we list some of our planned minigames below.
 2. Cat in the Rain
 3. Flipping Pancakes
 4. Hungry for Hotdog
-5. Ear Plugger
-6. Jumping Cars
-7. Luna-pants-lander
-8. Jumping rope
-9. Card Matching
-10. Wall Jumper
-11. Coughing Dab
-12. Golphing (Power Bar)
-13. FPS shooting planes or ships
+5. Car Jumper
+6. Balloon Escape
+7. Wheel of Fortune
+8. Look Out Below
+9. Shooting Practice
 
 [Minigame info](https://github.com/rashawnpeters/cop4331-group2/blob/master/Artifacts/Minigames.md)
 
