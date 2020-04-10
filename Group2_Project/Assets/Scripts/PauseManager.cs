@@ -18,8 +18,6 @@ GameObject[] pauseObjects;
 	// Update is called once per frame
 	void Update () {
 
-		Debug.Log(Time.timeScale);
-
 		if(Input.GetKeyDown(KeyCode.P))
 		{
 			SceneManager.LoadScene("PauseScene");
