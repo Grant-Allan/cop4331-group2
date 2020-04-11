@@ -8,7 +8,7 @@ public class StartNextGame : MonoBehaviour
 
 
     public float delay = 2.0f;
-    string[] minigames = { "WhackItMinigame", "Eat", "catch", "CatInRain", "CarJump", "BalloonPop", "WheelOfFortune"};
+    string[] minigames = { "WhackItMinigame", "Eat", "catch", "CatInRain", "CarJump", "BalloonPop", "WheelOfFortune", "TargetPractice"};
 
     //get random minigame
     System.Random rnd = new System.Random();

@@ -18,7 +18,7 @@ public class PersonBalloonMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        GetComponent<Rigidbody2D>().gravityScale = -1;
+        GetComponent<Rigidbody2D>().gravityScale = -0.25f;
 
         BalloonPopData.person_pos = transform.position.x;
 
